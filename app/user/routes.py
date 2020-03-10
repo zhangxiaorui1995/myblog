@@ -31,7 +31,7 @@ def log_in_success():
     # 登陆的接口为POST
     if request.method == "POST":
         if request.form.get('user_name'):
-            return "error"      # TODO
+            return "error"  # TODO
         else:
             uid = request.form.get('email', None)
             session['uid'] = uid
@@ -40,13 +40,13 @@ def log_in_success():
             if user.pwd == upw:
                 return redirect(url_for('user.index'))
             else:
-                return "error"      # TODO
+                return "error"  # TODO
     # 注册的接口为GET
     elif request.method == "GET":
-        if request.form.get('user_name'):
-            uid = request.form.get('email')
-            upw = request.form.get('password')
-            net_name = request.form.get('user_name')
+        if request.args.get('user_name'):
+            uid = request.args.get('email')
+            upw = request.args.get('password')
+            net_name = request.args.get('user_name')
             new_user_info = UserInfo()
             new_user_info.user = uid
             new_user_info.pwd = upw
@@ -55,6 +55,12 @@ def log_in_success():
             db.session.commit()
             return redirect(url_for('user.log_in'))
         else:
-            return "error"      # TODO
+            return "error"  # TODO
     else:
-        return "请求方式错误"     # TODO
+        return "请求方式错误"  # TODO
+
+
+# @blueprint.route('/test')
+# def test():
+#     return render_template('index.html', name='福成', speciality='python', personal_signature="这里是用户的个人签名",
+#                            personal_profile="这里是个人简介", personal_expectation="这里是个人期望")

@@ -3,7 +3,7 @@
 
 <head>
 <meta charset="utf-8">
-<title>HTML注册登录页面模板</title>
+<title>欢迎加入</title>
 <link rel="stylesheet" href="{{ url_for('static', filename='assets/css/style.css') }}">
 </head>
 
@@ -41,8 +41,8 @@
                 </div>
             </div>
             <div class="form sign-up">
+                <form action="http://127.0.0.1:8080/user/login/success" method="get">
                 <h2>立即注册</h2>
-                <form action="http://127.0.0.1:8080/user/login/success" method="post">
                 <label>
                     <span>用户名</span>
                     <input type="text" name="user_name" />
