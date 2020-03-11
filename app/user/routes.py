@@ -81,6 +81,7 @@ def user_form():
         form = UserForm()
         # request.method==' post '  and  from.validate() = form.validate_on_submit()
         if form.validate():
+            print([i.data for i in form])
             return "验证成功"
         else:
             return render_template('user_form.html', forms=form)
