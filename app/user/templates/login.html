@@ -4,13 +4,13 @@
 <head>
 <meta charset="utf-8">
 <title>欢迎加入</title>
-<link rel="stylesheet" href="{{ url_for('static', filename='assets/css/style.css') }}">
+<link rel="stylesheet" href="{{ url_for('static', filename='assets/css/style_for_login.css') }}">
 </head>
 
 <body>
     <div class="content">
         <div class="form sign-in">
-            <form action="http://127.0.0.1:8080/user/login/success" method="post">
+            <form action="{{ url_for('user.log_in_success') }}" method="post">
             <h2>欢迎回来</h2>
             <label>
                 <span>邮箱</span>
@@ -41,7 +41,7 @@
                 </div>
             </div>
             <div class="form sign-up">
-                <form action="http://127.0.0.1:8080/user/login/success" method="get">
+                <form action="{{ url_for('user.log_in_success') }}" method="get">
                 <h2>立即注册</h2>
                 <label>
                     <span>用户名</span>

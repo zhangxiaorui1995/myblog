@@ -4,7 +4,8 @@
 # __author__ = Aidan
 from flask import url_for, render_template, redirect, g, request, session
 from . import blueprint
-from models.model import UserInfo, db
+from models.model import UserInfo, db, gen_id, BlogInfo
+from .user_forms import UserForm
 
 
 @blueprint.route('/')
@@ -12,10 +13,15 @@ from models.model import UserInfo, db
 def index():
     if g.uid:
         uid = g.uid
-        user_info = UserInfo.query.filter(UserInfo.user == uid).first()
+        user_info = UserInfo.query.filter(UserInfo.id == uid).first()
         user_name = user_info.net_name
-        return render_template('index.html', name=user_name, speciality='python', personal_signature="这里是用户的个人签名",
-                               personal_profile="这里是个人简介", personal_expectation="这里是个人期望")
+        blog_info = BlogInfo.query.filter(BlogInfo.id == uid).first()
+        admin_name = '站长'
+        # return render_template('index.html', name=user_name, speciality=blog_info.speciality,
+        #                        personal_signature=blog_info.personal_signature,
+        #                        personal_profile=blog_info.personal_peofile,
+        #                        personal_expectation=blog_info.personal_expectation)
+        return render_template('index.html', **locals())
     else:
         return redirect(url_for('user.log_in'))
         # return redirect('login')
@@ -33,10 +39,12 @@ def log_in_success():
         if request.form.get('user_name'):
             return "error"  # TODO
         else:
-            uid = request.form.get('email', None)
+            uem = request.form.get('email', None)
+            user = UserInfo.query.filter(UserInfo.user == uem).first()
+            uid = user.id
             session['uid'] = uid
             upw = request.form.get('password', None)
-            user = UserInfo.query.filter(UserInfo.user == uid).first()
+
             if user.pwd == upw:
                 return redirect(url_for('user.index'))
             else:
@@ -44,23 +52,37 @@ def log_in_success():
     # 注册的接口为GET
     elif request.method == "GET":
         if request.args.get('user_name'):
-            uid = request.args.get('email')
+            uid = gen_id()
+            uem = request.args.get('email')
             upw = request.args.get('password')
             net_name = request.args.get('user_name')
             new_user_info = UserInfo()
-            new_user_info.user = uid
+            new_user_info.id = uid
+            new_user_info.user = uem
             new_user_info.pwd = upw
             new_user_info.net_name = net_name
             db.session.add(new_user_info)
             db.session.commit()
-            return redirect(url_for('user.log_in'))
+            g.uid = uid
+            return redirect(url_for('user.user_form'))
         else:
             return "error"  # TODO
     else:
         return "请求方式错误"  # TODO
 
 
-# @blueprint.route('/test')
-# def test():
-#     return render_template('index.html', name='福成', speciality='python', personal_signature="这里是用户的个人签名",
-#                            personal_profile="这里是个人简介", personal_expectation="这里是个人期望")
+# 用户填写基本信息
+@blueprint.route('/user_form', methods=["GET", "POST"])
+def user_form():
+    if not g.uid:
+        if request.method == "GET":
+            form = UserForm()
+            return render_template('user_form.html', forms=form)
+        form = UserForm()
+        # request.method==' post '  and  from.validate() = form.validate_on_submit()
+        if form.validate():
+            return "验证成功"
+        else:
+            return render_template('user_form.html', forms=form)
+    else:
+        return redirect(url_for('user.log_in'))

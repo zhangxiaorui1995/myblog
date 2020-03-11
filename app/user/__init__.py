@@ -5,3 +5,4 @@
 from flask import Blueprint
 blueprint = Blueprint('user', __name__, template_folder='templates')
 from . import routes
+from . import user_forms
