@@ -63,7 +63,7 @@ def log_in_success():
             new_user_info.net_name = net_name
             db.session.add(new_user_info)
             db.session.commit()
-            g.uid = uid
+            session['uid'] = uid
             return redirect(url_for('user.user_form'))
         else:
             return "error"  # TODO
@@ -74,14 +74,31 @@ def log_in_success():
 # 用户填写基本信息
 @blueprint.route('/user_form', methods=["GET", "POST"])
 def user_form():
-    if not g.uid:
+    if g.uid:
         if request.method == "GET":
             form = UserForm()
             return render_template('user_form.html', forms=form)
         form = UserForm()
         # request.method==' post '  and  from.validate() = form.validate_on_submit()
         if form.validate():
-            return "验证成功"
+            blog_info_list_one = []
+            for i in form:
+                blog_info_list_one.append(i.data)
+            blog_info_list = blog_info_list_one[:-1]
+            blog_info = BlogInfo()
+            blog_info.id = g.uid
+            blog_info.sex = blog_info_list[0]
+            blog_info.phone = blog_info_list[1]
+            blog_info.qq = blog_info_list[2]
+            blog_info.wx = blog_info_list[3]
+            blog_info.speciality = blog_info_list[4]
+            blog_info.personal_signature = blog_info_list[5]
+            blog_info.personal_profile = blog_info_list[6]
+            blog_info.personal_expectation = blog_info_list[7]
+            blog_info.status = 0
+            db.session.add(blog_info)
+            db.session.commit()
+            return redirect(url_for('user.index'))
         else:
             return render_template('user_form.html', forms=form)
     else:
