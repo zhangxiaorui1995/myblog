@@ -1,0 +1,450 @@
+*** Starting uWSGI 2.0.18 (64bit) on [Wed Mar 25 16:29:46 2020] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-39) on 13 March 2020 09:37:59
+os: Linux-3.10.0-1062.9.1.el7.x86_64 #1 SMP Fri Dec 6 15:49:49 UTC 2019
+nodename: VM_0_7_centos
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /usr/local/myblog
+detected binary path: /usr/local/python3/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /usr/local/myblog
+your processes number limit is 7266
+your memory page size is 4096 bytes
+detected max file descriptor number: 100001
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 0.0.0.0:5000 fd 4
+uwsgi socket 0 bound to TCP address 127.0.0.1:34230 (port auto-assigned) fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.6.2 (default, Mar 13 2020, 16:27:48)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-39)]
+Python main interpreter initialized at 0x1dbeec0
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 416880 bytes (407 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+ModuleNotFoundError: No module named 'myblog'
+unable to load app 0 (mountpoint='') (callable not found or import error)
+failed to open python file usr/local/myblog/manager.py
+unable to load app 0 (mountpoint='') (callable not found or import error)
+*** no app loaded. going in full dynamic mode ***
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 29328)
+spawned uWSGI worker 1 (pid: 29329, cores: 2)
+spawned uWSGI worker 2 (pid: 29330, cores: 2)
+spawned uWSGI worker 3 (pid: 29331, cores: 2)
+spawned uWSGI worker 4 (pid: 29332, cores: 2)
+spawned uWSGI http 1 (pid: 29333)
+*** Starting uWSGI 2.0.18 (64bit) on [Wed Mar 25 16:36:43 2020] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-39) on 13 March 2020 09:37:59
+os: Linux-3.10.0-1062.9.1.el7.x86_64 #1 SMP Fri Dec 6 15:49:49 UTC 2019
+nodename: VM_0_7_centos
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /usr/local/myblog
+detected binary path: /usr/local/python3/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /usr/local/myblog
+your processes number limit is 7266
+your memory page size is 4096 bytes
+detected max file descriptor number: 100001
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 0.0.0.0:5000 fd 4
+uwsgi socket 0 bound to TCP address 127.0.0.1:37154 (port auto-assigned) fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.6.2 (default, Mar 13 2020, 16:27:48)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-39)]
+Python main interpreter initialized at 0x1e49ec0
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 416880 bytes (407 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+ModuleNotFoundError: No module named 'manager.wsgi'; 'manager' is not a package
+unable to load app 0 (mountpoint='') (callable not found or import error)
+failed to open python file usr/local/myblog/uwsgi_config.ini
+unable to load app 0 (mountpoint='') (callable not found or import error)
+*** no app loaded. going in full dynamic mode ***
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 30390)
+spawned uWSGI worker 1 (pid: 30392, cores: 2)
+spawned uWSGI worker 2 (pid: 30393, cores: 2)
+spawned uWSGI worker 3 (pid: 30394, cores: 2)
+spawned uWSGI worker 4 (pid: 30395, cores: 2)
+spawned uWSGI http 1 (pid: 30396)
+*** Starting uWSGI 2.0.18 (64bit) on [Wed Mar 25 17:05:22 2020] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-39) on 13 March 2020 09:37:59
+os: Linux-3.10.0-1062.9.1.el7.x86_64 #1 SMP Fri Dec 6 15:49:49 UTC 2019
+nodename: VM_0_7_centos
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /usr/local/myblog
+detected binary path: /usr/local/python3/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /usr/local/myblog
+your processes number limit is 7266
+your memory page size is 4096 bytes
+detected max file descriptor number: 100001
+!!! no /etc/mime.types file found !!!
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 0.0.0.0:5000 fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.6.2 (default, Mar 13 2020, 16:27:48)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-39)]
+Python main interpreter initialized at 0x1934f10
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 703600 bytes (687 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x1934f10 pid: 2347 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 2347)
+spawned uWSGI worker 1 (pid: 2349, cores: 2)
+spawned uWSGI worker 2 (pid: 2350, cores: 2)
+spawned uWSGI worker 3 (pid: 2351, cores: 2)
+spawned uWSGI worker 4 (pid: 2352, cores: 2)
+{address space usage: 345292800 bytes/329MB} {rss usage: 33628160 bytes/32MB} [pid: 2349|app: 0|req: 1/1] 27.202.233.90 () {46 vars in 1370 bytes} [Wed Mar 25 17:05:42 2020] GET /tourist/ => generated 253 bytes in 15 msecs (HTTP/1.1 200) 5 headers in 369 bytes (1 switches on core 0)
+{address space usage: 345292800 bytes/329MB} {rss usage: 33742848 bytes/32MB} [pid: 2349|app: 0|req: 2/2] 27.202.233.90 () {48 vars in 1401 bytes} [Wed Mar 25 17:05:43 2020] GET /tourist/ => generated 253 bytes in 1 msecs (HTTP/1.1 200) 4 headers in 218 bytes (1 switches on core 1)
+{address space usage: 345292800 bytes/329MB} {rss usage: 33910784 bytes/32MB} [pid: 2349|app: 0|req: 3/3] 27.202.233.90 () {48 vars in 1401 bytes} [Wed Mar 25 17:05:44 2020] GET /tourist/ => generated 253 bytes in 1 msecs (HTTP/1.1 200) 4 headers in 218 bytes (1 switches on core 1)
+{address space usage: 345292800 bytes/329MB} {rss usage: 33910784 bytes/32MB} [pid: 2349|app: 0|req: 4/4] 27.202.233.90 () {48 vars in 1423 bytes} [Wed Mar 25 17:05:45 2020] GET /user/login => generated 2469 bytes in 5 msecs (HTTP/1.1 200) 4 headers in 219 bytes (1 switches on core 1)
+{address space usage: 345554944 bytes/329MB} {rss usage: 34312192 bytes/32MB} [pid: 2349|app: 0|req: 5/5] 27.202.233.90 () {48 vars in 1558 bytes} [Wed Mar 25 17:06:30 2020] GET /user/login/success?user_name=ceshihao&email=ceshi%40123.com&password=123456tt => generated 237 bytes in 44 msecs (HTTP/1.1 302) 6 headers in 474 bytes (1 switches on core 1)
+{address space usage: 345554944 bytes/329MB} {rss usage: 34676736 bytes/33MB} [pid: 2349|app: 0|req: 6/6] 27.202.233.90 () {48 vars in 1484 bytes} [Wed Mar 25 17:06:30 2020] GET /user/user_form => generated 4305 bytes in 9 msecs (HTTP/1.1 200) 4 headers in 219 bytes (1 switches on core 0)
+{address space usage: 344707072 bytes/328MB} {rss usage: 32047104 bytes/30MB} [pid: 2352|app: -1|req: -1/7] 27.202.233.90 () {46 vars in 1391 bytes} [Wed Mar 25 17:06:30 2020] GET /static/assets/css/style_for_form.css => generated 5563 bytes in 8 msecs via sendfile() (HTTP/1.1 200) 2 headers in 87 bytes (0 switches on core 0)
+{address space usage: 345554944 bytes/329MB} {rss usage: 34676736 bytes/33MB} [pid: 2349|app: 0|req: 7/8] 27.202.233.90 () {56 vars in 1675 bytes} [Wed Mar 25 17:07:25 2020] POST /user/user_form => generated 229 bytes in 15 msecs (HTTP/1.1 302) 5 headers in 268 bytes (1 switches on core 1)
+{address space usage: 345493504 bytes/329MB} {rss usage: 34631680 bytes/33MB} [pid: 2352|app: 0|req: 1/9] 27.202.233.90 () {50 vars in 1511 bytes} [Wed Mar 25 17:07:25 2020] GET /user/index => generated 12436 bytes in 40 msecs (HTTP/1.1 200) 4 headers in 220 bytes (1 switches on core 1)
+{address space usage: 345554944 bytes/329MB} {rss usage: 34738176 bytes/33MB} [pid: 2349|app: -1|req: -1/10] 27.202.233.90 () {46 vars in 1382 bytes} [Wed Mar 25 17:07:25 2020] GET /static/images/pic01.jpg => generated 10064 bytes in 2 msecs via sendfile() (HTTP/1.1 200) 2 headers in 88 bytes (0 switches on core 0)
+{address space usage: 344707072 bytes/328MB} {rss usage: 32047104 bytes/30MB} [pid: 2351|app: -1|req: -1/11] 27.202.233.90 () {46 vars in 1367 bytes} [Wed Mar 25 17:07:25 2020] GET /static/assets/css/main.css => generated 36089 bytes in 2 msecs via sendfile() (HTTP/1.1 200) 2 headers in 88 bytes (0 switches on core 0)
+{address space usage: 344707072 bytes/328MB} {rss usage: 32047104 bytes/30MB} [pid: 2350|app: -1|req: -1/12] 27.202.233.90 () {46 vars in 1362 bytes} [Wed Mar 25 17:07:25 2020] GET /static/assets/js/browser.min.js => generated 1851 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 2 headers in 87 bytes (0 switches on core 0)
+{address space usage: 345493504 bytes/329MB} {rss usage: 34631680 bytes/33MB} [pid: 2352|app: -1|req: -1/13] 27.202.233.90 () {46 vars in 1370 bytes} [Wed Mar 25 17:07:25 2020] GET /static/assets/js/breakpoints.min.js => generated 2439 bytes in 0 msecs via sendfile() (HTTP/1.1 200) 2 headers in 87 bytes (0 switches on core 0)
+{address space usage: 345554944 bytes/329MB} {rss usage: 34775040 bytes/33MB} [pid: 2349|app: -1|req: -1/14] 27.202.233.90 () {46 vars in 1382 bytes} [Wed Mar 25 17:07:25 2020] GET /static/images/pic02.jpg => generated 8904 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 2 headers in 87 bytes (0 switches on core 1)
+{address space usage: 344707072 bytes/328MB} {rss usage: 32178176 bytes/30MB} [pid: 2351|app: -1|req: -1/15] 27.202.233.90 () {46 vars in 1348 bytes} [Wed Mar 25 17:07:25 2020] GET /static/assets/js/util.js => generated 12433 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 2 headers in 88 bytes (0 switches on core 1)
+{address space usage: 344707072 bytes/328MB} {rss usage: 32178176 bytes/30MB} [pid: 2350|app: -1|req: -1/16] 27.202.233.90 () {46 vars in 1360 bytes} [Wed Mar 25 17:07:25 2020] GET /static/assets/js/jquery.min.js => generated 88145 bytes in 17 msecs via sendfile() (HTTP/1.1 200) 2 headers in 88 bytes (0 switches on core 1)
+{address space usage: 345554944 bytes/329MB} {rss usage: 34775040 bytes/33MB} [pid: 2349|app: -1|req: -1/17] 27.202.233.90 () {46 vars in 1348 bytes} [Wed Mar 25 17:07:25 2020] GET /static/assets/js/main.js => generated 8435 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 2 headers in 87 bytes (0 switches on core 0)
+{address space usage: 344707072 bytes/328MB} {rss usage: 32215040 bytes/30MB} [pid: 2351|app: -1|req: -1/18] 27.202.233.90 () {46 vars in 1382 bytes} [Wed Mar 25 17:07:25 2020] GET /static/images/pic03.jpg => generated 9697 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 2 headers in 87 bytes (0 switches on core 0)
+{address space usage: 344707072 bytes/328MB} {rss usage: 32215040 bytes/30MB} [pid: 2350|app: -1|req: -1/19] 27.202.233.90 () {46 vars in 1397 bytes} [Wed Mar 25 17:07:25 2020] GET /static/assets/css/fontawesome-all.min.css => generated 55967 bytes in 14 msecs via sendfile() (HTTP/1.1 200) 2 headers in 88 bytes (0 switches on core 0)
+{address space usage: 345554944 bytes/329MB} {rss usage: 34775040 bytes/33MB} [pid: 2349|app: -1|req: -1/20] 27.202.233.90 () {46 vars in 1402 bytes} [Wed Mar 25 17:07:25 2020] GET /static/images/overlay.png => generated 4385 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 2 headers in 87 bytes (0 switches on core 1)
+{address space usage: 344707072 bytes/328MB} {rss usage: 32243712 bytes/30MB} [pid: 2350|app: -1|req: -1/21] 27.202.233.90 () {46 vars in 1392 bytes} [Wed Mar 25 17:07:25 2020] GET /static/images/bg.jpg => generated 86682 bytes in 14 msecs via sendfile() (HTTP/1.1 200) 2 headers in 88 bytes (0 switches on core 1)
+{address space usage: 344707072 bytes/328MB} {rss usage: 32243712 bytes/30MB} [pid: 2351|app: -1|req: -1/22] 27.202.233.90 () {48 vars in 1456 bytes} [Wed Mar 25 17:07:26 2020] GET /static/assets/webfonts/fa-regular-400.woff2 => generated 13580 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 2 headers in 88 bytes (0 switches on core 0)
+{address space usage: 344707072 bytes/328MB} {rss usage: 32243712 bytes/30MB} [pid: 2351|app: -1|req: -1/23] 27.202.233.90 () {48 vars in 1454 bytes} [Wed Mar 25 17:07:26 2020] GET /static/assets/webfonts/fa-brands-400.woff2 => generated 74508 bytes in 9 msecs via sendfile() (HTTP/1.1 200) 2 headers in 88 bytes (0 switches on core 1)
+{address space usage: 345493504 bytes/329MB} {rss usage: 34660352 bytes/33MB} [pid: 2352|app: -1|req: -1/24] 27.202.233.90 () {48 vars in 1452 bytes} [Wed Mar 25 17:07:26 2020] GET /static/assets/webfonts/fa-solid-900.woff2 => generated 75440 bytes in 15 msecs via sendfile() (HTTP/1.1 200) 2 headers in 88 bytes (0 switches on core 1)
+{address space usage: 345554944 bytes/329MB} {rss usage: 34775040 bytes/33MB} [pid: 2349|app: 0|req: 8/25] 27.202.233.90 () {46 vars in 1129 bytes} [Wed Mar 25 17:08:00 2020] GET / => generated 225 bytes in 2 msecs (HTTP/1.1 302) 6 headers in 417 bytes (1 switches on core 0)
+{address space usage: 345296896 bytes/329MB} {rss usage: 33800192 bytes/32MB} [pid: 2351|app: 0|req: 1/26] 27.202.233.90 () {46 vars in 1370 bytes} [Wed Mar 25 17:08:00 2020] GET /tourist/ => generated 253 bytes in 14 msecs (HTTP/1.1 200) 4 headers in 218 bytes (1 switches on core 0)
+{address space usage: 345296896 bytes/329MB} {rss usage: 33886208 bytes/32MB} [pid: 2351|app: 0|req: 2/27] 27.202.233.90 () {46 vars in 1305 bytes} [Wed Mar 25 17:08:00 2020] GET /favicon.ico => generated 232 bytes in 2 msecs (HTTP/1.1 404) 4 headers in 225 bytes (1 switches on core 1)
+{address space usage: 345296896 bytes/329MB} {rss usage: 34082816 bytes/32MB} [pid: 2351|app: 0|req: 3/28] 27.202.233.90 () {48 vars in 1423 bytes} [Wed Mar 25 17:08:01 2020] GET /user/login => generated 2469 bytes in 8 msecs (HTTP/1.1 200) 4 headers in 219 bytes (1 switches on core 1)
+{address space usage: 345559040 bytes/329MB} {rss usage: 34426880 bytes/32MB} [pid: 2351|app: 0|req: 4/29] 27.202.233.90 () {56 vars in 1626 bytes} [Wed Mar 25 17:08:08 2020] POST /user/login/success => generated 229 bytes in 17 msecs (HTTP/1.1 302) 6 headers in 470 bytes (1 switches on core 1)
+{address space usage: 346271744 bytes/330MB} {rss usage: 35274752 bytes/33MB} [pid: 2349|app: 0|req: 9/30] 27.202.233.90 () {50 vars in 1507 bytes} [Wed Mar 25 17:08:08 2020] GET /user/index => generated 12436 bytes in 18 msecs (HTTP/1.1 200) 4 headers in 220 bytes (1 switches on core 0)
+{address space usage: 346271744 bytes/330MB} {rss usage: 35274752 bytes/33MB} [pid: 2349|app: 0|req: 10/31] 59.36.121.173 () {40 vars in 604 bytes} [Wed Mar 25 17:08:47 2020] GET / => generated 225 bytes in 2 msecs (HTTP/1.0 302) 6 headers in 417 bytes (1 switches on core 1)
+{address space usage: 346271744 bytes/330MB} {rss usage: 35291136 bytes/33MB} [pid: 2349|app: 0|req: 11/32] 123.129.117.232 () {46 vars in 892 bytes} [Wed Mar 25 20:30:03 2020] GET / => generated 225 bytes in 3 msecs (HTTP/1.1 302) 6 headers in 417 bytes (1 switches on core 1)
+{address space usage: 345661440 bytes/329MB} {rss usage: 34750464 bytes/33MB} [pid: 2352|app: 0|req: 2/33] 123.129.117.232 () {46 vars in 1133 bytes} [Wed Mar 25 20:30:03 2020] GET /tourist/ => generated 253 bytes in 3 msecs (HTTP/1.1 200) 4 headers in 218 bytes (1 switches on core 0)
+{address space usage: 346271744 bytes/330MB} {rss usage: 35291136 bytes/33MB} [pid: 2349|app: 0|req: 12/34] 123.129.117.232 () {46 vars in 1068 bytes} [Wed Mar 25 20:30:03 2020] GET /favicon.ico => generated 232 bytes in 2 msecs (HTTP/1.1 404) 4 headers in 225 bytes (1 switches on core 1)
+{address space usage: 346271744 bytes/330MB} {rss usage: 35291136 bytes/33MB} [pid: 2349|app: 0|req: 13/35] 123.129.117.232 () {48 vars in 1186 bytes} [Wed Mar 25 20:30:04 2020] GET /user/login => generated 2469 bytes in 1 msecs (HTTP/1.1 200) 4 headers in 219 bytes (1 switches on core 1)
+{address space usage: 345661440 bytes/329MB} {rss usage: 34750464 bytes/33MB} [pid: 2352|app: -1|req: -1/36] 123.129.117.232 () {46 vars in 1101 bytes} [Wed Mar 25 20:30:04 2020] GET /static/assets/css/style_for_login.css => generated 5761 bytes in 0 msecs via sendfile() (HTTP/1.1 200) 2 headers in 87 bytes (0 switches on core 0)
+{address space usage: 344707072 bytes/328MB} {rss usage: 32247808 bytes/30MB} [pid: 2350|app: -1|req: -1/37] 123.129.117.232 () {46 vars in 1064 bytes} [Wed Mar 25 20:30:04 2020] GET /static/assets/js/script.js => generated 148 bytes in 0 msecs via sendfile() (HTTP/1.1 200) 2 headers in 86 bytes (0 switches on core 0)
+{address space usage: 345559040 bytes/329MB} {rss usage: 34435072 bytes/32MB} [pid: 2351|app: -1|req: -1/38] 123.129.117.232 () {46 vars in 1129 bytes} [Wed Mar 25 20:30:05 2020] GET /static/assets/images/bg.jpg => generated 326867 bytes in 0 msecs via sendfile() (HTTP/1.1 200) 2 headers in 89 bytes (0 switches on core 0)
+{address space usage: 346271744 bytes/330MB} {rss usage: 35307520 bytes/33MB} [pid: 2349|app: 0|req: 14/39] 123.129.117.232 () {56 vars in 1389 bytes} [Wed Mar 25 20:30:22 2020] POST /user/login/success => generated 229 bytes in 6 msecs (HTTP/1.1 302) 6 headers in 470 bytes (1 switches on core 1)
+{address space usage: 346271744 bytes/330MB} {rss usage: 35409920 bytes/33MB} [pid: 2349|app: 0|req: 15/40] 192.154.121.6 () {44 vars in 744 bytes} [Wed Mar 25 20:30:24 2020] GET /user/login => generated 2469 bytes in 2 msecs (HTTP/1.1 200) 5 headers in 370 bytes (1 switches on core 0)
+{address space usage: 346271744 bytes/330MB} {rss usage: 35418112 bytes/33MB} [pid: 2349|app: -1|req: -1/41] 192.154.121.6 () {46 vars in 1003 bytes} [Wed Mar 25 20:30:25 2020] GET /static/assets/css/style_for_login.css => generated 5761 bytes in 0 msecs via sendfile() (HTTP/1.1 200) 2 headers in 87 bytes (0 switches on core 0)
+{address space usage: 346271744 bytes/330MB} {rss usage: 35418112 bytes/33MB} [pid: 2349|app: -1|req: -1/42] 192.154.121.6 () {46 vars in 966 bytes} [Wed Mar 25 20:30:25 2020] GET /static/assets/js/script.js => generated 148 bytes in 0 msecs via sendfile() (HTTP/1.1 200) 2 headers in 86 bytes (0 switches on core 0)
+{address space usage: 346271744 bytes/330MB} {rss usage: 35418112 bytes/33MB} [pid: 2349|app: -1|req: -1/43] 192.154.121.6 () {46 vars in 1012 bytes} [Wed Mar 25 20:30:26 2020] GET /static/assets/images/bg.jpg => generated 326867 bytes in 0 msecs via sendfile() (HTTP/1.1 200) 2 headers in 89 bytes (0 switches on core 0)
+{address space usage: 346271744 bytes/330MB} {rss usage: 35418112 bytes/33MB} [pid: 2349|app: 0|req: 16/44] 123.129.117.232 () {44 vars in 961 bytes} [Wed Mar 25 20:31:43 2020] GET / => generated 225 bytes in 2 msecs (HTTP/1.1 302) 6 headers in 417 bytes (1 switches on core 0)
+{address space usage: 346271744 bytes/330MB} {rss usage: 35418112 bytes/33MB} [pid: 2349|app: 0|req: 17/45] 123.129.117.232 () {46 vars in 1215 bytes} [Wed Mar 25 20:31:43 2020] GET /tourist/ => generated 253 bytes in 1 msecs (HTTP/1.1 200) 4 headers in 218 bytes (1 switches on core 0)
+{address space usage: 345661440 bytes/329MB} {rss usage: 34750464 bytes/33MB} [pid: 2352|app: 0|req: 3/46] 123.129.117.232 () {48 vars in 1268 bytes} [Wed Mar 25 20:31:44 2020] GET /user/login => generated 2469 bytes in 5 msecs (HTTP/1.1 200) 4 headers in 219 bytes (1 switches on core 0)
+{address space usage: 344707072 bytes/328MB} {rss usage: 32247808 bytes/30MB} [pid: 2350|app: -1|req: -1/47] 123.129.117.232 () {46 vars in 1233 bytes} [Wed Mar 25 20:31:44 2020] GET /static/assets/css/style_for_login.css => generated 5761 bytes in 0 msecs via sendfile() (HTTP/1.1 200) 2 headers in 87 bytes (0 switches on core 0)
+{address space usage: 346271744 bytes/330MB} {rss usage: 35418112 bytes/33MB} [pid: 2349|app: -1|req: -1/48] 123.129.117.232 () {46 vars in 1196 bytes} [Wed Mar 25 20:31:44 2020] GET /static/assets/js/script.js => generated 148 bytes in 0 msecs via sendfile() (HTTP/1.1 200) 2 headers in 86 bytes (0 switches on core 0)
+{address space usage: 344707072 bytes/328MB} {rss usage: 32247808 bytes/30MB} [pid: 2350|app: -1|req: -1/49] 123.129.117.232 () {46 vars in 1250 bytes} [Wed Mar 25 20:31:44 2020] GET /static/assets/images/bg.jpg => generated 326867 bytes in 0 msecs via sendfile() (HTTP/1.1 200) 2 headers in 89 bytes (0 switches on core 0)
+{address space usage: 346271744 bytes/330MB} {rss usage: 35418112 bytes/33MB} [pid: 2349|app: 0|req: 18/50] 123.129.117.232 () {46 vars in 1199 bytes} [Wed Mar 25 20:32:27 2020] GET / => generated 225 bytes in 1 msecs (HTTP/1.1 302) 5 headers in 266 bytes (1 switches on core 0)
+{address space usage: 345559040 bytes/329MB} {rss usage: 34435072 bytes/32MB} [pid: 2351|app: 0|req: 5/51] 123.129.117.232 () {46 vars in 1215 bytes} [Wed Mar 25 20:32:27 2020] GET /tourist/ => generated 253 bytes in 1 msecs (HTTP/1.1 200) 4 headers in 218 bytes (1 switches on core 0)
+{address space usage: 346271744 bytes/330MB} {rss usage: 35418112 bytes/33MB} [pid: 2349|app: 0|req: 19/52] 61.129.7.235 () {40 vars in 657 bytes} [Wed Mar 25 20:32:56 2020] GET / => generated 225 bytes in 2 msecs (HTTP/1.1 302) 6 headers in 417 bytes (1 switches on core 0)
+{address space usage: 346271744 bytes/330MB} {rss usage: 35418112 bytes/33MB} [pid: 2349|app: 0|req: 20/53] 61.129.7.235 () {44 vars in 952 bytes} [Wed Mar 25 20:33:01 2020] GET /tourist/ => generated 253 bytes in 1 msecs (HTTP/1.1 200) 4 headers in 218 bytes (1 switches on core 0)
+{address space usage: 346271744 bytes/330MB} {rss usage: 35418112 bytes/33MB} [pid: 2349|app: 0|req: 21/54] 123.151.77.123 () {50 vars in 1068 bytes} [Wed Mar 25 20:33:01 2020] GET / => generated 225 bytes in 2 msecs (HTTP/1.1 302) 6 headers in 417 bytes (1 switches on core 0)
+{address space usage: 346271744 bytes/330MB} {rss usage: 35418112 bytes/33MB} [pid: 2349|app: 0|req: 22/55] 123.151.77.123 () {52 vars in 1322 bytes} [Wed Mar 25 20:33:01 2020] GET /tourist/ => generated 253 bytes in 1 msecs (HTTP/1.1 200) 4 headers in 218 bytes (1 switches on core 0)
+{address space usage: 346271744 bytes/330MB} {rss usage: 35418112 bytes/33MB} [pid: 2349|app: 0|req: 23/56] 218.58.82.48 () {46 vars in 1188 bytes} [Wed Mar 25 20:33:03 2020] GET /favicon.ico => generated 232 bytes in 2 msecs (HTTP/1.1 404) 4 headers in 225 bytes (1 switches on core 0)
+{address space usage: 346271744 bytes/330MB} {rss usage: 35418112 bytes/33MB} [pid: 2349|app: 0|req: 24/57] 123.151.77.123 () {54 vars in 1375 bytes} [Wed Mar 25 20:33:05 2020] GET /user/login => generated 2469 bytes in 1 msecs (HTTP/1.1 200) 4 headers in 219 bytes (1 switches on core 0)
+{address space usage: 345559040 bytes/329MB} {rss usage: 34467840 bytes/32MB} [pid: 2351|app: -1|req: -1/58] 218.58.82.48 () {46 vars in 1186 bytes} [Wed Mar 25 20:33:05 2020] GET /static/assets/css/style_for_login.css => generated 5761 bytes in 0 msecs via sendfile() (HTTP/1.1 200) 2 headers in 87 bytes (0 switches on core 0)
+{address space usage: 345661440 bytes/329MB} {rss usage: 34803712 bytes/33MB} [pid: 2352|app: -1|req: -1/59] 123.151.77.123 () {52 vars in 1246 bytes} [Wed Mar 25 20:33:05 2020] GET /static/assets/js/script.js => generated 148 bytes in 0 msecs via sendfile() (HTTP/1.1 200) 2 headers in 86 bytes (0 switches on core 0)
+{address space usage: 345661440 bytes/329MB} {rss usage: 34803712 bytes/33MB} [pid: 2352|app: -1|req: -1/60] 218.58.82.48 () {46 vars in 1249 bytes} [Wed Mar 25 20:33:05 2020] GET /static/assets/images/bg.jpg => generated 326867 bytes in 0 msecs via sendfile() (HTTP/1.1 200) 2 headers in 89 bytes (0 switches on core 0)
+{address space usage: 346271744 bytes/330MB} {rss usage: 35418112 bytes/33MB} [pid: 2349|app: 0|req: 25/61] 61.151.178.197 () {44 vars in 720 bytes} [Wed Mar 25 20:33:12 2020] GET / => generated 225 bytes in 2 msecs (HTTP/1.1 302) 6 headers in 417 bytes (1 switches on core 0)
+{address space usage: 346271744 bytes/330MB} {rss usage: 35418112 bytes/33MB} [pid: 2349|app: 0|req: 26/62] 61.151.178.197 () {46 vars in 974 bytes} [Wed Mar 25 20:33:12 2020] GET /tourist/ => generated 253 bytes in 1 msecs (HTTP/1.1 200) 4 headers in 218 bytes (1 switches on core 0)
+{address space usage: 346271744 bytes/330MB} {rss usage: 35418112 bytes/33MB} [pid: 2349|app: 0|req: 27/63] 123.151.77.123 () {54 vars in 1544 bytes} [Wed Mar 25 20:33:38 2020] GET /user/login/success?user_name=%E9%9C%8D%E7%A6%8F%E6%88%90&email=123456%40qq.com&password=123456 => generated 237 bytes in 14 msecs (HTTP/1.1 302) 6 headers in 475 bytes (1 switches on core 0)
+{address space usage: 346271744 bytes/330MB} {rss usage: 35418112 bytes/33MB} [pid: 2349|app: 0|req: 28/64] 123.151.77.123 () {54 vars in 1437 bytes} [Wed Mar 25 20:33:39 2020] GET /user/user_form => generated 4305 bytes in 2 msecs (HTTP/1.1 200) 4 headers in 219 bytes (1 switches on core 1)
+{address space usage: 345661440 bytes/329MB} {rss usage: 34803712 bytes/33MB} [pid: 2352|app: -1|req: -1/65] 218.58.82.48 () {46 vars in 1240 bytes} [Wed Mar 25 20:33:39 2020] GET /static/assets/css/style_for_form.css => generated 5563 bytes in 0 msecs via sendfile() (HTTP/1.1 200) 2 headers in 87 bytes (0 switches on core 0)
+{address space usage: 346271744 bytes/330MB} {rss usage: 35418112 bytes/33MB} [pid: 2349|app: 0|req: 29/66] 180.97.118.219 () {40 vars in 670 bytes} [Wed Mar 25 20:34:02 2020] GET /tourist => generated 273 bytes in 2 msecs (HTTP/1.1 308) 6 headers in 430 bytes (1 switches on core 1)
+{address space usage: 346271744 bytes/330MB} {rss usage: 35418112 bytes/33MB} [pid: 2349|app: 0|req: 30/67] 180.97.118.219 () {44 vars in 958 bytes} [Wed Mar 25 20:34:04 2020] GET /tourist/ => generated 253 bytes in 1 msecs (HTTP/1.1 200) 4 headers in 218 bytes (1 switches on core 1)
+[2020-03-25 20:34:39,945] ERROR in app: Exception on /user/login/success [GET]
+Traceback (most recent call last):
+  File "/usr/local/python3/lib/python3.6/site-packages/sqlalchemy/engine/base.py", line 1246, in _execute_context
+    cursor, statement, parameters, context
+  File "/usr/local/python3/lib/python3.6/site-packages/sqlalchemy/engine/default.py", line 588, in do_execute
+    cursor.execute(statement, parameters)
+  File "/usr/local/python3/lib/python3.6/site-packages/pymysql/cursors.py", line 170, in execute
+    result = self._query(query)
+  File "/usr/local/python3/lib/python3.6/site-packages/pymysql/cursors.py", line 328, in _query
+    conn.query(q)
+  File "/usr/local/python3/lib/python3.6/site-packages/pymysql/connections.py", line 517, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "/usr/local/python3/lib/python3.6/site-packages/pymysql/connections.py", line 732, in _read_query_result
+    result.read()
+  File "/usr/local/python3/lib/python3.6/site-packages/pymysql/connections.py", line 1075, in read
+    first_packet = self.connection._read_packet()
+  File "/usr/local/python3/lib/python3.6/site-packages/pymysql/connections.py", line 684, in _read_packet
+    packet.check_error()
+  File "/usr/local/python3/lib/python3.6/site-packages/pymysql/protocol.py", line 220, in check_error
+    err.raise_mysql_exception(self._data)
+  File "/usr/local/python3/lib/python3.6/site-packages/pymysql/err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.IntegrityError: (1062, "Duplicate entry '123456@qq.com' for key 'user'")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/python3/lib/python3.6/site-packages/flask/app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/python3/lib/python3.6/site-packages/flask/app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/python3/lib/python3.6/site-packages/flask/app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/python3/lib/python3.6/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/usr/local/python3/lib/python3.6/site-packages/flask/app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/python3/lib/python3.6/site-packages/flask/app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "./app/user/routes.py", line 65, in log_in_success
+    db.session.commit()
+  File "/usr/local/python3/lib/python3.6/site-packages/sqlalchemy/orm/scoping.py", line 162, in do
+    return getattr(self.registry(), name)(*args, **kwargs)
+  File "/usr/local/python3/lib/python3.6/site-packages/sqlalchemy/orm/session.py", line 1036, in commit
+    self.transaction.commit()
+  File "/usr/local/python3/lib/python3.6/site-packages/sqlalchemy/orm/session.py", line 503, in commit
+    self._prepare_impl()
+  File "/usr/local/python3/lib/python3.6/site-packages/sqlalchemy/orm/session.py", line 482, in _prepare_impl
+    self.session.flush()
+  File "/usr/local/python3/lib/python3.6/site-packages/sqlalchemy/orm/session.py", line 2479, in flush
+    self._flush(objects)
+  File "/usr/local/python3/lib/python3.6/site-packages/sqlalchemy/orm/session.py", line 2617, in _flush
+    transaction.rollback(_capture_exception=True)
+  File "/usr/local/python3/lib/python3.6/site-packages/sqlalchemy/util/langhelpers.py", line 68, in __exit__
+    compat.reraise(exc_type, exc_value, exc_tb)
+  File "/usr/local/python3/lib/python3.6/site-packages/sqlalchemy/util/compat.py", line 153, in reraise
+    raise value
+  File "/usr/local/python3/lib/python3.6/site-packages/sqlalchemy/orm/session.py", line 2577, in _flush
+    flush_context.execute()
+  File "/usr/local/python3/lib/python3.6/site-packages/sqlalchemy/orm/unitofwork.py", line 422, in execute
+    rec.execute(self)
+  File "/usr/local/python3/lib/python3.6/site-packages/sqlalchemy/orm/unitofwork.py", line 589, in execute
+    uow,
+  File "/usr/local/python3/lib/python3.6/site-packages/sqlalchemy/orm/persistence.py", line 245, in save_obj
+    insert,
+  File "/usr/local/python3/lib/python3.6/site-packages/sqlalchemy/orm/persistence.py", line 1084, in _emit_insert_statements
+    c = cached_connections[connection].execute(statement, multiparams)
+  File "/usr/local/python3/lib/python3.6/site-packages/sqlalchemy/engine/base.py", line 982, in execute
+    return meth(self, multiparams, params)
+  File "/usr/local/python3/lib/python3.6/site-packages/sqlalchemy/sql/elements.py", line 293, in _execute_on_connection
+    return connection._execute_clauseelement(self, multiparams, params)
+  File "/usr/local/python3/lib/python3.6/site-packages/sqlalchemy/engine/base.py", line 1101, in _execute_clauseelement
+    distilled_params,
+  File "/usr/local/python3/lib/python3.6/site-packages/sqlalchemy/engine/base.py", line 1250, in _execute_context
+    e, statement, parameters, cursor, context
+  File "/usr/local/python3/lib/python3.6/site-packages/sqlalchemy/engine/base.py", line 1476, in _handle_dbapi_exception
+    util.raise_from_cause(sqlalchemy_exception, exc_info)
+  File "/usr/local/python3/lib/python3.6/site-packages/sqlalchemy/util/compat.py", line 398, in raise_from_cause
+    reraise(type(exception), exception, tb=exc_tb, cause=cause)
+  File "/usr/local/python3/lib/python3.6/site-packages/sqlalchemy/util/compat.py", line 152, in reraise
+    raise value.with_traceback(tb)
+  File "/usr/local/python3/lib/python3.6/site-packages/sqlalchemy/engine/base.py", line 1246, in _execute_context
+    cursor, statement, parameters, context
+  File "/usr/local/python3/lib/python3.6/site-packages/sqlalchemy/engine/default.py", line 588, in do_execute
+    cursor.execute(statement, parameters)
+  File "/usr/local/python3/lib/python3.6/site-packages/pymysql/cursors.py", line 170, in execute
+    result = self._query(query)
+  File "/usr/local/python3/lib/python3.6/site-packages/pymysql/cursors.py", line 328, in _query
+    conn.query(q)
+  File "/usr/local/python3/lib/python3.6/site-packages/pymysql/connections.py", line 517, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "/usr/local/python3/lib/python3.6/site-packages/pymysql/connections.py", line 732, in _read_query_result
+    result.read()
+  File "/usr/local/python3/lib/python3.6/site-packages/pymysql/connections.py", line 1075, in read
+    first_packet = self.connection._read_packet()
+  File "/usr/local/python3/lib/python3.6/site-packages/pymysql/connections.py", line 684, in _read_packet
+    packet.check_error()
+  File "/usr/local/python3/lib/python3.6/site-packages/pymysql/protocol.py", line 220, in check_error
+    err.raise_mysql_exception(self._data)
+  File "/usr/local/python3/lib/python3.6/site-packages/pymysql/err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+sqlalchemy.exc.IntegrityError: (pymysql.err.IntegrityError) (1062, "Duplicate entry '123456@qq.com' for key 'user'")
+[SQL: INSERT INTO user_info (id, user, pwd, net_name) VALUES (%(id)s, %(user)s, %(pwd)s, %(net_name)s)]
+[parameters: {'id': '775baf93d01f44fbb156fa554b216f51', 'user': '123456@qq.com', 'pwd': '123456', 'net_name': '霍福成'}]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+{address space usage: 347582464 bytes/331MB} {rss usage: 37097472 bytes/35MB} [pid: 2349|app: 0|req: 31/68] 61.151.207.186 () {40 vars in 892 bytes} [Wed Mar 25 20:34:39 2020] GET /user/login/success?user_name=%E9%9C%8D%E7%A6%8F%E6%88%90&email=123456%40qq.com&password=123456 => generated 290 bytes in 115 msecs (HTTP/1.1 500) 5 headers in 388 bytes (1 switches on core 1)
+{address space usage: 347582464 bytes/331MB} {rss usage: 37187584 bytes/35MB} [pid: 2349|app: 0|req: 32/69] 123.151.77.123 () {52 vars in 1370 bytes} [Wed Mar 25 21:01:52 2020] GET / => generated 225 bytes in 1 msecs (HTTP/1.1 302) 5 headers in 266 bytes (1 switches on core 0)
+{address space usage: 345292800 bytes/329MB} {rss usage: 33812480 bytes/32MB} [pid: 2350|app: 0|req: 1/70] 123.151.77.123 () {52 vars in 1386 bytes} [Wed Mar 25 21:01:52 2020] GET /tourist/ => generated 253 bytes in 15 msecs (HTTP/1.1 200) 4 headers in 218 bytes (1 switches on core 0)
+{address space usage: 345292800 bytes/329MB} {rss usage: 33910784 bytes/32MB} [pid: 2350|app: 0|req: 2/71] 218.58.82.48 () {46 vars in 1252 bytes} [Wed Mar 25 21:01:53 2020] GET /favicon.ico => generated 232 bytes in 2 msecs (HTTP/1.1 404) 4 headers in 225 bytes (1 switches on core 1)
+{address space usage: 345292800 bytes/329MB} {rss usage: 33947648 bytes/32MB} [pid: 2350|app: 0|req: 3/72] 123.129.117.232 () {46 vars in 1199 bytes} [Wed Mar 25 21:44:31 2020] GET / => generated 225 bytes in 2 msecs (HTTP/1.1 302) 5 headers in 266 bytes (1 switches on core 1)
+{address space usage: 345559040 bytes/329MB} {rss usage: 34467840 bytes/32MB} [pid: 2351|app: 0|req: 6/73] 123.129.117.232 () {46 vars in 1215 bytes} [Wed Mar 25 21:44:31 2020] GET /tourist/ => generated 253 bytes in 1 msecs (HTTP/1.1 200) 4 headers in 218 bytes (1 switches on core 0)
+{address space usage: 345292800 bytes/329MB} {rss usage: 34041856 bytes/32MB} [pid: 2350|app: 0|req: 4/74] 223.104.90.141 () {44 vars in 742 bytes} [Wed Mar 25 23:00:52 2020] GET / => generated 225 bytes in 2 msecs (HTTP/1.1 302) 6 headers in 417 bytes (1 switches on core 1)
+{address space usage: 345661440 bytes/329MB} {rss usage: 34803712 bytes/33MB} [pid: 2352|app: 0|req: 4/75] 223.104.90.141 () {46 vars in 996 bytes} [Wed Mar 25 23:00:52 2020] GET /tourist/ => generated 253 bytes in 1 msecs (HTTP/1.1 200) 4 headers in 218 bytes (1 switches on core 0)
+{address space usage: 345559040 bytes/329MB} {rss usage: 34467840 bytes/32MB} [pid: 2351|app: 0|req: 7/76] 223.104.90.141 () {46 vars in 956 bytes} [Wed Mar 25 23:00:52 2020] GET /favicon.ico => generated 232 bytes in 1 msecs (HTTP/1.1 404) 4 headers in 225 bytes (1 switches on core 0)
+{address space usage: 345292800 bytes/329MB} {rss usage: 34222080 bytes/32MB} [pid: 2350|app: 0|req: 5/77] 223.104.90.141 () {48 vars in 1049 bytes} [Wed Mar 25 23:00:54 2020] GET /user/login => generated 2469 bytes in 6 msecs (HTTP/1.1 200) 4 headers in 219 bytes (1 switches on core 1)
+{address space usage: 345559040 bytes/329MB} {rss usage: 34467840 bytes/32MB} [pid: 2351|app: -1|req: -1/78] 223.104.90.141 () {46 vars in 1025 bytes} [Wed Mar 25 23:00:54 2020] GET /static/assets/css/style_for_login.css => generated 5761 bytes in 0 msecs via sendfile() (HTTP/1.1 200) 2 headers in 87 bytes (0 switches on core 0)
+{address space usage: 347582464 bytes/331MB} {rss usage: 37187584 bytes/35MB} [pid: 2349|app: -1|req: -1/79] 223.104.90.141 () {46 vars in 988 bytes} [Wed Mar 25 23:00:54 2020] GET /static/assets/js/script.js => generated 148 bytes in 0 msecs via sendfile() (HTTP/1.1 200) 2 headers in 86 bytes (0 switches on core 0)
+{address space usage: 345661440 bytes/329MB} {rss usage: 34807808 bytes/33MB} [pid: 2352|app: -1|req: -1/80] 223.104.90.141 () {46 vars in 1048 bytes} [Wed Mar 25 23:00:54 2020] GET /static/assets/images/bg.jpg => generated 326867 bytes in 0 msecs via sendfile() (HTTP/1.1 200) 2 headers in 89 bytes (0 switches on core 0)
+{address space usage: 345292800 bytes/329MB} {rss usage: 34250752 bytes/32MB} [pid: 2350|app: 0|req: 6/81] 223.104.90.141 () {46 vars in 958 bytes} [Wed Mar 25 23:00:56 2020] GET /favicon.ico => generated 232 bytes in 1 msecs (HTTP/1.1 404) 4 headers in 225 bytes (1 switches on core 1)
+{address space usage: 345292800 bytes/329MB} {rss usage: 34250752 bytes/32MB} [pid: 2350|app: 0|req: 7/82] 117.132.183.17 () {44 vars in 673 bytes} [Thu Mar 26 00:33:20 2020] GET / => generated 225 bytes in 2 msecs (HTTP/1.1 302) 6 headers in 417 bytes (1 switches on core 1)
+{address space usage: 345559040 bytes/329MB} {rss usage: 34467840 bytes/32MB} [pid: 2351|app: 0|req: 8/83] 117.132.183.17 () {44 vars in 913 bytes} [Thu Mar 26 00:33:20 2020] GET /tourist/ => generated 253 bytes in 1 msecs (HTTP/1.1 200) 4 headers in 218 bytes (1 switches on core 0)
+{address space usage: 345292800 bytes/329MB} {rss usage: 34250752 bytes/32MB} [pid: 2350|app: 0|req: 8/84] 182.254.52.17 () {40 vars in 610 bytes} [Thu Mar 26 02:32:46 2020] GET / => generated 225 bytes in 5 msecs (HTTP/1.1 302) 6 headers in 417 bytes (1 switches on core 1)
+{address space usage: 347582464 bytes/331MB} {rss usage: 37187584 bytes/35MB} [pid: 2349|app: 0|req: 33/85] 182.254.52.17 () {44 vars in 905 bytes} [Thu Mar 26 02:32:46 2020] GET /tourist/ => generated 253 bytes in 4 msecs (HTTP/1.1 200) 4 headers in 218 bytes (1 switches on core 0)
+{address space usage: 345292800 bytes/329MB} {rss usage: 34250752 bytes/32MB} [pid: 2350|app: 0|req: 9/86] 182.254.52.17 () {40 vars in 610 bytes} [Thu Mar 26 03:30:08 2020] GET / => generated 225 bytes in 2 msecs (HTTP/1.1 302) 6 headers in 417 bytes (1 switches on core 1)
+{address space usage: 347582464 bytes/331MB} {rss usage: 37187584 bytes/35MB} [pid: 2349|app: 0|req: 34/87] 182.254.52.17 () {44 vars in 905 bytes} [Thu Mar 26 03:30:08 2020] GET /tourist/ => generated 253 bytes in 2 msecs (HTTP/1.1 200) 4 headers in 218 bytes (1 switches on core 0)
+{address space usage: 345292800 bytes/329MB} {rss usage: 34197504 bytes/32MB} [pid: 2350|app: 0|req: 10/88] 27.202.233.90 () {46 vars in 1129 bytes} [Thu Mar 26 08:12:55 2020] GET / => generated 225 bytes in 2 msecs (HTTP/1.1 302) 6 headers in 417 bytes (1 switches on core 1)
+{address space usage: 345661440 bytes/329MB} {rss usage: 34754560 bytes/33MB} [pid: 2352|app: 0|req: 5/89] 27.202.233.90 () {46 vars in 1370 bytes} [Thu Mar 26 08:12:55 2020] GET /tourist/ => generated 253 bytes in 4 msecs (HTTP/1.1 200) 4 headers in 218 bytes (1 switches on core 0)
+{address space usage: 347582464 bytes/331MB} {rss usage: 37134336 bytes/35MB} [pid: 2349|app: 0|req: 35/90] 27.202.233.90 () {46 vars in 1305 bytes} [Thu Mar 26 08:12:55 2020] GET /favicon.ico => generated 232 bytes in 2 msecs (HTTP/1.1 404) 4 headers in 225 bytes (1 switches on core 0)
+{address space usage: 345292800 bytes/329MB} {rss usage: 34172928 bytes/32MB} [pid: 2350|app: 0|req: 11/91] 27.202.233.90 () {44 vars in 960 bytes} [Thu Mar 26 08:52:11 2020] GET / => generated 225 bytes in 2 msecs (HTTP/1.1 302) 6 headers in 417 bytes (1 switches on core 1)
+{address space usage: 345661440 bytes/329MB} {rss usage: 34729984 bytes/33MB} [pid: 2352|app: 0|req: 6/92] 27.202.233.90 () {46 vars in 1214 bytes} [Thu Mar 26 08:52:11 2020] GET /tourist/ => generated 253 bytes in 1 msecs (HTTP/1.1 200) 4 headers in 218 bytes (1 switches on core 0)
+{address space usage: 345292800 bytes/329MB} {rss usage: 34172928 bytes/32MB} [pid: 2350|app: 0|req: 12/93] 27.202.233.90 () {48 vars in 1267 bytes} [Thu Mar 26 08:52:13 2020] GET /user/login => generated 2469 bytes in 2 msecs (HTTP/1.1 200) 4 headers in 219 bytes (1 switches on core 1)
+{address space usage: 347582464 bytes/331MB} {rss usage: 37109760 bytes/35MB} [pid: 2349|app: -1|req: -1/94] 27.202.233.90 () {46 vars in 1232 bytes} [Thu Mar 26 08:52:13 2020] GET /static/assets/css/style_for_login.css => generated 5761 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 2 headers in 87 bytes (0 switches on core 0)
+{address space usage: 345559040 bytes/329MB} {rss usage: 34398208 bytes/32MB} [pid: 2351|app: -1|req: -1/95] 27.202.233.90 () {46 vars in 1195 bytes} [Thu Mar 26 08:52:13 2020] GET /static/assets/js/script.js => generated 148 bytes in 0 msecs via sendfile() (HTTP/1.1 200) 2 headers in 86 bytes (0 switches on core 0)
+{address space usage: 345661440 bytes/329MB} {rss usage: 34729984 bytes/33MB} [pid: 2352|app: -1|req: -1/96] 27.202.233.90 () {46 vars in 1249 bytes} [Thu Mar 26 08:52:13 2020] GET /static/assets/images/bg.jpg => generated 326867 bytes in 14 msecs via sendfile() (HTTP/1.1 200) 2 headers in 89 bytes (0 switches on core 0)
+{address space usage: 347844608 bytes/331MB} {rss usage: 37109760 bytes/35MB} [pid: 2349|app: 0|req: 36/97] 60.216.93.164 () {44 vars in 787 bytes} [Thu Mar 26 08:52:15 2020] GET / => generated 225 bytes in 3 msecs (HTTP/1.1 302) 6 headers in 417 bytes (1 switches on core 1)
+{address space usage: 347844608 bytes/331MB} {rss usage: 37117952 bytes/35MB} [pid: 2349|app: 0|req: 37/98] 60.216.93.164 () {46 vars in 1041 bytes} [Thu Mar 26 08:52:16 2020] GET /tourist/ => generated 253 bytes in 2 msecs (HTTP/1.1 200) 4 headers in 218 bytes (1 switches on core 1)
+{address space usage: 347844608 bytes/331MB} {rss usage: 37122048 bytes/35MB} [pid: 2349|app: 0|req: 38/99] 60.216.93.164 () {46 vars in 976 bytes} [Thu Mar 26 08:52:16 2020] GET /favicon.ico => generated 232 bytes in 1 msecs (HTTP/1.1 404) 4 headers in 225 bytes (1 switches on core 1)
+{address space usage: 347844608 bytes/331MB} {rss usage: 37126144 bytes/35MB} [pid: 2349|app: 0|req: 39/100] 60.216.93.164 () {48 vars in 1094 bytes} [Thu Mar 26 08:52:21 2020] GET /user/login => generated 2469 bytes in 2 msecs (HTTP/1.1 200) 4 headers in 219 bytes (1 switches on core 1)
+{address space usage: 347844608 bytes/331MB} {rss usage: 37163008 bytes/35MB} [pid: 2349|app: -1|req: -1/101] 60.216.93.164 () {46 vars in 1009 bytes} [Thu Mar 26 08:52:23 2020] GET /static/assets/css/style_for_login.css => generated 5761 bytes in 0 msecs via sendfile() (HTTP/1.1 200) 2 headers in 87 bytes (0 switches on core 1)
+{address space usage: 345559040 bytes/329MB} {rss usage: 34398208 bytes/32MB} [pid: 2351|app: -1|req: -1/102] 60.216.93.164 () {46 vars in 972 bytes} [Thu Mar 26 08:52:23 2020] GET /static/assets/js/script.js => generated 148 bytes in 0 msecs via sendfile() (HTTP/1.1 200) 2 headers in 86 bytes (0 switches on core 0)
+{address space usage: 347844608 bytes/331MB} {rss usage: 37163008 bytes/35MB} [pid: 2349|app: -1|req: -1/103] 60.216.93.164 () {46 vars in 1037 bytes} [Thu Mar 26 08:52:24 2020] GET /static/assets/images/bg.jpg => generated 326867 bytes in 0 msecs via sendfile() (HTTP/1.1 200) 2 headers in 89 bytes (0 switches on core 1)
+{address space usage: 347844608 bytes/331MB} {rss usage: 37163008 bytes/35MB} [pid: 2349|app: 0|req: 40/104] 60.216.93.164 () {48 vars in 1317 bytes} [Thu Mar 26 08:54:28 2020] GET /user/login/success?user_name=%E6%9C%A8%E6%98%9C%E5%92%8F%E6%9C%88%E7%94%9F&email=15154452779%40163.com&password=982783107 => generated 237 bytes in 25 msecs (HTTP/1.1 302) 6 headers in 474 bytes (1 switches on core 1)
+{address space usage: 345661440 bytes/329MB} {rss usage: 34729984 bytes/33MB} [pid: 2352|app: 0|req: 7/105] 60.216.93.164 () {50 vars in 1176 bytes} [Thu Mar 26 08:55:16 2020] GET /user/login => generated 2469 bytes in 3 msecs (HTTP/1.1 200) 4 headers in 219 bytes (1 switches on core 1)
+{address space usage: 345661440 bytes/329MB} {rss usage: 34754560 bytes/33MB} [pid: 2352|app: 0|req: 8/106] 60.216.93.164 () {56 vars in 1348 bytes} [Thu Mar 26 08:55:29 2020] POST /user/login/success => generated 229 bytes in 13 msecs (HTTP/1.1 302) 6 headers in 470 bytes (1 switches on core 1)
+{address space usage: 345817088 bytes/329MB} {rss usage: 34705408 bytes/33MB} [pid: 2350|app: 0|req: 13/107] 60.216.93.164 () {50 vars in 1178 bytes} [Thu Mar 26 08:55:29 2020] GET /user/index => generated 12378 bytes in 44 msecs (HTTP/1.1 200) 4 headers in 220 bytes (1 switches on core 1)
+{address space usage: 347844608 bytes/331MB} {rss usage: 37187584 bytes/35MB} [pid: 2349|app: -1|req: -1/108] 60.216.93.164 () {46 vars in 1053 bytes} [Thu Mar 26 08:55:29 2020] GET /static/images/pic01.jpg => generated 10064 bytes in 2 msecs via sendfile() (HTTP/1.1 200) 2 headers in 88 bytes (0 switches on core 0)
+{address space usage: 345559040 bytes/329MB} {rss usage: 34398208 bytes/32MB} [pid: 2351|app: -1|req: -1/109] 60.216.93.164 () {46 vars in 1038 bytes} [Thu Mar 26 08:55:29 2020] GET /static/assets/css/main.css => generated 36089 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 2 headers in 88 bytes (0 switches on core 0)
+{address space usage: 345661440 bytes/329MB} {rss usage: 34832384 bytes/33MB} [pid: 2352|app: -1|req: -1/110] 60.216.93.164 () {46 vars in 1031 bytes} [Thu Mar 26 08:55:29 2020] GET /static/assets/js/jquery.min.js => generated 88145 bytes in 3 msecs via sendfile() (HTTP/1.1 200) 2 headers in 88 bytes (0 switches on core 0)
+{address space usage: 345661440 bytes/329MB} {rss usage: 34832384 bytes/33MB} [pid: 2352|app: -1|req: -1/111] 60.216.93.164 () {46 vars in 1033 bytes} [Thu Mar 26 08:55:29 2020] GET /static/assets/js/browser.min.js => generated 1851 bytes in 0 msecs via sendfile() (HTTP/1.1 200) 2 headers in 87 bytes (0 switches on core 1)
+{address space usage: 347844608 bytes/331MB} {rss usage: 37187584 bytes/35MB} [pid: 2349|app: -1|req: -1/112] 60.216.93.164 () {46 vars in 1041 bytes} [Thu Mar 26 08:55:29 2020] GET /static/assets/js/breakpoints.min.js => generated 2439 bytes in 0 msecs via sendfile() (HTTP/1.1 200) 2 headers in 87 bytes (0 switches on core 1)
+{address space usage: 345817088 bytes/329MB} {rss usage: 34902016 bytes/33MB} [pid: 2350|app: -1|req: -1/113] 60.216.93.164 () {46 vars in 1053 bytes} [Thu Mar 26 08:55:29 2020] GET /static/images/pic02.jpg => generated 8904 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 2 headers in 87 bytes (0 switches on core 0)
+{address space usage: 347844608 bytes/331MB} {rss usage: 37187584 bytes/35MB} [pid: 2349|app: -1|req: -1/114] 60.216.93.164 () {46 vars in 1019 bytes} [Thu Mar 26 08:55:29 2020] GET /static/assets/js/main.js => generated 8435 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 2 headers in 87 bytes (0 switches on core 1)
+{address space usage: 345661440 bytes/329MB} {rss usage: 34832384 bytes/33MB} [pid: 2352|app: -1|req: -1/115] 60.216.93.164 () {46 vars in 1053 bytes} [Thu Mar 26 08:55:29 2020] GET /static/images/pic03.jpg => generated 9697 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 2 headers in 87 bytes (0 switches on core 1)
+{address space usage: 345559040 bytes/329MB} {rss usage: 34398208 bytes/32MB} [pid: 2351|app: -1|req: -1/116] 60.216.93.164 () {46 vars in 1068 bytes} [Thu Mar 26 08:55:29 2020] GET /static/assets/css/fontawesome-all.min.css => generated 55967 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 2 headers in 88 bytes (0 switches on core 1)
+{address space usage: 347844608 bytes/331MB} {rss usage: 37187584 bytes/35MB} [pid: 2349|app: -1|req: -1/117] 60.216.93.164 () {46 vars in 1019 bytes} [Thu Mar 26 08:55:30 2020] GET /static/assets/js/util.js => generated 12433 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 2 headers in 88 bytes (0 switches on core 0)
+{address space usage: 347844608 bytes/331MB} {rss usage: 37187584 bytes/35MB} [pid: 2349|app: -1|req: -1/118] 60.216.93.164 () {46 vars in 1063 bytes} [Thu Mar 26 08:55:31 2020] GET /static/images/bg.jpg => generated 86682 bytes in 2 msecs via sendfile() (HTTP/1.1 200) 2 headers in 88 bytes (0 switches on core 1)
+{address space usage: 345661440 bytes/329MB} {rss usage: 34832384 bytes/33MB} [pid: 2352|app: -1|req: -1/119] 60.216.93.164 () {46 vars in 1073 bytes} [Thu Mar 26 08:55:31 2020] GET /static/images/overlay.png => generated 4385 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 2 headers in 87 bytes (0 switches on core 0)
+{address space usage: 345559040 bytes/329MB} {rss usage: 34398208 bytes/32MB} [pid: 2351|app: -1|req: -1/120] 60.216.93.164 () {48 vars in 1127 bytes} [Thu Mar 26 08:55:31 2020] GET /static/assets/webfonts/fa-regular-400.woff2 => generated 13580 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 2 headers in 88 bytes (0 switches on core 0)
+{address space usage: 345661440 bytes/329MB} {rss usage: 34832384 bytes/33MB} [pid: 2352|app: 0|req: 9/121] 60.216.93.164 () {46 vars in 1076 bytes} [Thu Mar 26 08:55:47 2020] GET / => generated 225 bytes in 2 msecs (HTTP/1.1 302) 5 headers in 266 bytes (1 switches on core 1)
+{address space usage: 345661440 bytes/329MB} {rss usage: 34832384 bytes/33MB} [pid: 2352|app: 0|req: 10/122] 60.216.93.164 () {46 vars in 1092 bytes} [Thu Mar 26 08:55:48 2020] GET /tourist/ => generated 253 bytes in 2 msecs (HTTP/1.1 200) 4 headers in 218 bytes (1 switches on core 1)
+{address space usage: 345661440 bytes/329MB} {rss usage: 34832384 bytes/33MB} [pid: 2352|app: 0|req: 11/123] 54.36.149.53 () {38 vars in 538 bytes} [Thu Mar 26 14:23:39 2020] GET /robots.txt => generated 232 bytes in 2 msecs (HTTP/1.1 404) 5 headers in 376 bytes (1 switches on core 1)
+{address space usage: 345661440 bytes/329MB} {rss usage: 34840576 bytes/33MB} [pid: 2352|app: 0|req: 12/124] 54.36.150.109 () {38 vars in 519 bytes} [Thu Mar 26 14:23:41 2020] GET / => generated 225 bytes in 2 msecs (HTTP/1.1 302) 6 headers in 417 bytes (1 switches on core 1)
+{address space usage: 345661440 bytes/329MB} {rss usage: 34840576 bytes/33MB} [pid: 2352|app: -1|req: -1/125] 182.254.52.17 () {40 vars in 694 bytes} [Thu Mar 26 14:55:26 2020] GET /static/assets/webfonts/fa-brands-400.woff2 => generated 74508 bytes in 24 msecs via sendfile() (HTTP/1.1 200) 2 headers in 88 bytes (0 switches on core 1)
+{address space usage: 345559040 bytes/329MB} {rss usage: 34398208 bytes/32MB} [pid: 2351|app: 0|req: 9/126] 61.241.50.63 () {40 vars in 575 bytes} [Thu Mar 26 14:59:42 2020] GET /user/login => generated 2469 bytes in 5 msecs (HTTP/1.1 200) 5 headers in 370 bytes (1 switches on core 1)
+{address space usage: 345559040 bytes/329MB} {rss usage: 34459648 bytes/32MB} [pid: 2351|app: -1|req: -1/127] 113.96.198.43 () {36 vars in 467 bytes} [Thu Mar 26 15:18:36 2020] GET /static/images/overlay.png => generated 4385 bytes in 2 msecs via sendfile() (HTTP/1.1 200) 2 headers in 87 bytes (0 switches on core 1)
+{address space usage: 345817088 bytes/329MB} {rss usage: 34902016 bytes/33MB} [pid: 2350|app: 0|req: 14/128] 223.104.90.113 () {46 vars in 811 bytes} [Thu Mar 26 15:39:01 2020] GET /user/login => generated 2469 bytes in 3 msecs (HTTP/1.1 200) 5 headers in 370 bytes (1 switches on core 1)
+{address space usage: 345817088 bytes/329MB} {rss usage: 34906112 bytes/33MB} [pid: 2350|app: -1|req: -1/129] 223.104.90.113 () {46 vars in 1025 bytes} [Thu Mar 26 15:39:01 2020] GET /static/assets/css/style_for_login.css => generated 5761 bytes in 3 msecs via sendfile() (HTTP/1.1 200) 2 headers in 87 bytes (0 switches on core 1)
+{address space usage: 347844608 bytes/331MB} {rss usage: 37187584 bytes/35MB} [pid: 2349|app: -1|req: -1/130] 223.104.90.113 () {46 vars in 988 bytes} [Thu Mar 26 15:39:01 2020] GET /static/assets/js/script.js => generated 148 bytes in 2 msecs via sendfile() (HTTP/1.1 200) 2 headers in 86 bytes (0 switches on core 0)
+{address space usage: 345817088 bytes/329MB} {rss usage: 34906112 bytes/33MB} [pid: 2350|app: -1|req: -1/131] 223.104.90.113 () {46 vars in 1048 bytes} [Thu Mar 26 15:39:01 2020] GET /static/assets/images/bg.jpg => generated 326867 bytes in 8 msecs via sendfile() (HTTP/1.1 200) 2 headers in 89 bytes (0 switches on core 0)
+{address space usage: 347844608 bytes/331MB} {rss usage: 37187584 bytes/35MB} [pid: 2349|app: 0|req: 41/132] 223.104.90.113 () {46 vars in 958 bytes} [Thu Mar 26 15:39:03 2020] GET /favicon.ico => generated 232 bytes in 1 msecs (HTTP/1.1 404) 4 headers in 225 bytes (1 switches on core 1)
+{address space usage: 347844608 bytes/331MB} {rss usage: 37187584 bytes/35MB} [pid: 2349|app: -1|req: -1/133] 183.3.255.20 () {36 vars in 456 bytes} [Thu Mar 26 15:54:56 2020] GET /static/images/bg.jpg => generated 86682 bytes in 2 msecs via sendfile() (HTTP/1.1 200) 2 headers in 88 bytes (0 switches on core 1)
+{address space usage: 345817088 bytes/329MB} {rss usage: 34906112 bytes/33MB} [pid: 2350|app: 0|req: 15/134] 58.247.212.239 () {40 vars in 577 bytes} [Thu Mar 26 15:57:53 2020] GET /user/index => generated 229 bytes in 2 msecs (HTTP/1.1 302) 6 headers in 419 bytes (1 switches on core 1)
+{address space usage: 347844608 bytes/331MB} {rss usage: 37187584 bytes/35MB} [pid: 2349|app: 0|req: 42/135] 58.247.212.239 () {44 vars in 866 bytes} [Thu Mar 26 15:57:53 2020] GET /user/login => generated 2469 bytes in 2 msecs (HTTP/1.1 200) 4 headers in 219 bytes (1 switches on core 0)
+{address space usage: 345817088 bytes/329MB} {rss usage: 34807808 bytes/33MB} [pid: 2350|app: -1|req: -1/136] 61.241.50.63 () {40 vars in 691 bytes} [Thu Mar 26 16:27:16 2020] GET /static/assets/webfonts/fa-solid-900.woff2 => generated 75440 bytes in 16 msecs via sendfile() (HTTP/1.1 200) 2 headers in 88 bytes (0 switches on core 1)
+{address space usage: 347844608 bytes/331MB} {rss usage: 37109760 bytes/35MB} [pid: 2349|app: 0|req: 43/137] 117.132.183.17 () {44 vars in 673 bytes} [Thu Mar 26 16:33:10 2020] GET / => generated 225 bytes in 7 msecs (HTTP/1.1 302) 6 headers in 417 bytes (1 switches on core 0)
+{address space usage: 347844608 bytes/331MB} {rss usage: 37126144 bytes/35MB} [pid: 2349|app: 0|req: 44/138] 117.132.183.17 () {44 vars in 913 bytes} [Thu Mar 26 16:33:10 2020] GET /tourist/ => generated 253 bytes in 4 msecs (HTTP/1.1 200) 4 headers in 218 bytes (1 switches on core 1)
+{address space usage: 347844608 bytes/331MB} {rss usage: 37130240 bytes/35MB} [pid: 2349|app: 0|req: 45/139] 173.249.22.173 () {40 vars in 615 bytes} [Thu Mar 26 16:55:21 2020] GET / => generated 225 bytes in 2 msecs (HTTP/1.1 302) 6 headers in 417 bytes (1 switches on core 0)
+{address space usage: 347844608 bytes/331MB} {rss usage: 37130240 bytes/35MB} [pid: 2349|app: 0|req: 46/140] 173.249.22.173 () {40 vars in 631 bytes} [Thu Mar 26 16:55:27 2020] GET /tourist/ => generated 253 bytes in 2 msecs (HTTP/1.1 200) 5 headers in 369 bytes (1 switches on core 0)
+{address space usage: 347844608 bytes/331MB} {rss usage: 37122048 bytes/35MB} [pid: 2349|app: 0|req: 47/141] 27.202.233.90 () {46 vars in 1277 bytes} [Thu Mar 26 17:11:59 2020] GET / => generated 225 bytes in 2 msecs (HTTP/1.1 302) 5 headers in 266 bytes (1 switches on core 0)
+{address space usage: 345661440 bytes/329MB} {rss usage: 34758656 bytes/33MB} [pid: 2352|app: 0|req: 13/142] 27.202.233.90 () {46 vars in 1293 bytes} [Thu Mar 26 17:11:59 2020] GET /tourist/ => generated 253 bytes in 2 msecs (HTTP/1.1 200) 4 headers in 218 bytes (1 switches on core 0)
+{address space usage: 347844608 bytes/331MB} {rss usage: 37126144 bytes/35MB} [pid: 2349|app: 0|req: 48/143] 27.202.233.90 () {48 vars in 1346 bytes} [Thu Mar 26 17:12:01 2020] GET /user/login => generated 2469 bytes in 2 msecs (HTTP/1.1 200) 4 headers in 219 bytes (1 switches on core 0)
+{address space usage: 347844608 bytes/331MB} {rss usage: 37126144 bytes/35MB} [pid: 2349|app: 0|req: 49/144] 27.202.233.90 () {56 vars in 1549 bytes} [Thu Mar 26 17:12:11 2020] POST /user/login/success => generated 229 bytes in 11 msecs (HTTP/1.1 302) 6 headers in 470 bytes (1 switches on core 0)
+{address space usage: 347844608 bytes/331MB} {rss usage: 37146624 bytes/35MB} [pid: 2349|app: 0|req: 50/145] 27.202.233.90 () {50 vars in 1430 bytes} [Thu Mar 26 17:12:11 2020] GET /user/index => generated 12436 bytes in 11 msecs (HTTP/1.1 200) 4 headers in 220 bytes (1 switches on core 1)
+{address space usage: 347844608 bytes/331MB} {rss usage: 37203968 bytes/35MB} [pid: 2349|app: -1|req: -1/146] 27.202.233.90 () {48 vars in 1375 bytes} [Thu Mar 26 17:12:11 2020] GET /static/assets/webfonts/fa-solid-900.woff2 => generated 75440 bytes in 0 msecs via sendfile() (HTTP/1.1 200) 2 headers in 88 bytes (0 switches on core 0)
+{address space usage: 345817088 bytes/329MB} {rss usage: 34807808 bytes/33MB} [pid: 2350|app: -1|req: -1/147] 27.202.233.90 () {48 vars in 1377 bytes} [Thu Mar 26 17:12:11 2020] GET /static/assets/webfonts/fa-brands-400.woff2 => generated 74508 bytes in 3 msecs via sendfile() (HTTP/1.1 200) 2 headers in 88 bytes (0 switches on core 0)
+{address space usage: 345817088 bytes/329MB} {rss usage: 34807808 bytes/33MB} [pid: 2350|app: -1|req: -1/148] 14.18.182.223 () {40 vars in 696 bytes} [Thu Mar 26 17:48:11 2020] GET /static/assets/webfonts/fa-regular-400.woff2 => generated 13580 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 2 headers in 88 bytes (0 switches on core 1)
+{address space usage: 347844608 bytes/331MB} {rss usage: 36978688 bytes/35MB} [pid: 2349|app: -1|req: -1/149] 113.96.198.54 () {36 vars in 463 bytes} [Thu Mar 26 18:13:01 2020] GET /static/images/pic03.jpg => generated 9697 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 2 headers in 87 bytes (0 switches on core 0)
+{address space usage: 347844608 bytes/331MB} {rss usage: 36974592 bytes/35MB} [pid: 2349|app: -1|req: -1/150] 14.215.156.91 () {36 vars in 471 bytes} [Thu Mar 26 18:43:40 2020] GET /static/assets/images/bg.jpg => generated 326867 bytes in 0 msecs via sendfile() (HTTP/1.1 200) 2 headers in 89 bytes (0 switches on core 1)
+{address space usage: 347844608 bytes/331MB} {rss usage: 36560896 bytes/34MB} [pid: 2349|app: 0|req: 51/151] 183.192.179.16 () {40 vars in 627 bytes} [Fri Mar 27 01:54:32 2020] GET /tourist/ => generated 253 bytes in 16 msecs (HTTP/1.1 200) 5 headers in 369 bytes (1 switches on core 1)
+{address space usage: 347844608 bytes/331MB} {rss usage: 36569088 bytes/34MB} [pid: 2349|app: 0|req: 52/152] 182.254.52.17 () {40 vars in 610 bytes} [Fri Mar 27 03:33:00 2020] GET / => generated 225 bytes in 2 msecs (HTTP/1.1 302) 6 headers in 417 bytes (1 switches on core 0)
+{address space usage: 345661440 bytes/329MB} {rss usage: 34226176 bytes/32MB} [pid: 2352|app: 0|req: 14/153] 182.254.52.17 () {44 vars in 905 bytes} [Fri Mar 27 03:33:00 2020] GET /tourist/ => generated 253 bytes in 4 msecs (HTTP/1.1 200) 4 headers in 218 bytes (1 switches on core 0)
+{address space usage: 345661440 bytes/329MB} {rss usage: 34238464 bytes/32MB} [pid: 2352|app: 0|req: 15/154] 58.212.14.102 () {48 vars in 805 bytes} [Fri Mar 27 04:12:12 2020] GET / => generated 225 bytes in 3 msecs (HTTP/1.1 302) 6 headers in 417 bytes (1 switches on core 1)
+{address space usage: 345559040 bytes/329MB} {rss usage: 33816576 bytes/32MB} [pid: 2351|app: 0|req: 10/155] 113.128.104.144 () {50 vars in 1061 bytes} [Fri Mar 27 04:12:13 2020] GET /tourist/ => generated 253 bytes in 4 msecs (HTTP/1.1 200) 4 headers in 218 bytes (1 switches on core 0)
+{address space usage: 345661440 bytes/329MB} {rss usage: 34242560 bytes/32MB} [pid: 2352|app: -1|req: -1/156] 182.254.52.17 () {40 vars in 692 bytes} [Fri Mar 27 04:17:41 2020] GET /static/assets/webfonts/fa-solid-900.woff2 => generated 75440 bytes in 4 msecs via sendfile() (HTTP/1.1 200) 2 headers in 88 bytes (0 switches on core 1)
+{address space usage: 345559040 bytes/329MB} {rss usage: 33853440 bytes/32MB} [pid: 2351|app: 0|req: 11/157] 182.254.52.17 () {40 vars in 576 bytes} [Fri Mar 27 04:23:23 2020] GET /user/login => generated 2469 bytes in 2 msecs (HTTP/1.1 200) 5 headers in 370 bytes (1 switches on core 1)
+{address space usage: 345559040 bytes/329MB} {rss usage: 33857536 bytes/32MB} [pid: 2351|app: 0|req: 12/158] 182.254.52.17 () {40 vars in 626 bytes} [Fri Mar 27 05:50:23 2020] GET /tourist/ => generated 253 bytes in 2 msecs (HTTP/1.1 200) 5 headers in 369 bytes (1 switches on core 1)
+{address space usage: 345559040 bytes/329MB} {rss usage: 33857536 bytes/32MB} [pid: 2351|app: -1|req: -1/159] 61.241.50.63 () {40 vars in 641 bytes} [Fri Mar 27 06:24:40 2020] GET /static/assets/webfonts/fa-regular-400.woff2 => generated 13580 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 2 headers in 88 bytes (0 switches on core 1)
+{address space usage: 347844608 bytes/331MB} {rss usage: 36564992 bytes/34MB} [pid: 2349|app: 0|req: 53/160] 158.69.225.33 () {36 vars in 460 bytes} [Sat Mar 28 01:51:03 2020] GET / => generated 225 bytes in 2 msecs (HTTP/1.1 302) 6 headers in 417 bytes (1 switches on core 0)
+{address space usage: 345661440 bytes/329MB} {rss usage: 34238464 bytes/32MB} [pid: 2352|app: 0|req: 16/161] 158.69.225.33 () {38 vars in 714 bytes} [Sat Mar 28 01:51:04 2020] GET /tourist/ => generated 253 bytes in 2 msecs (HTTP/1.1 200) 4 headers in 218 bytes (1 switches on core 0)
+{address space usage: 347844608 bytes/331MB} {rss usage: 36564992 bytes/34MB} [pid: 2349|app: 0|req: 54/162] 158.69.225.33 () {36 vars in 480 bytes} [Sat Mar 28 01:51:06 2020] GET /robots.txt => generated 232 bytes in 14 msecs (HTTP/1.1 404) 5 headers in 376 bytes (1 switches on core 0)
+{address space usage: 347844608 bytes/331MB} {rss usage: 36569088 bytes/34MB} [pid: 2349|app: 0|req: 55/163] 158.69.225.33 () {36 vars in 482 bytes} [Sat Mar 28 01:51:06 2020] GET /sitemap.xml => generated 232 bytes in 2 msecs (HTTP/1.1 404) 5 headers in 376 bytes (1 switches on core 1)
+{address space usage: 347844608 bytes/331MB} {rss usage: 36569088 bytes/34MB} [pid: 2349|app: 0|req: 56/164] 158.69.225.33 () {38 vars in 714 bytes} [Sat Mar 28 01:51:07 2020] GET /tourist/ => generated 253 bytes in 1 msecs (HTTP/1.1 200) 4 headers in 218 bytes (1 switches on core 1)
+{address space usage: 347844608 bytes/331MB} {rss usage: 36569088 bytes/34MB} [pid: 2349|app: 0|req: 57/165] 158.69.225.33 () {38 vars in 718 bytes} [Sat Mar 28 01:51:08 2020] GET /user/login => generated 2469 bytes in 2 msecs (HTTP/1.1 200) 4 headers in 219 bytes (1 switches on core 1)
+{address space usage: 347844608 bytes/331MB} {rss usage: 36569088 bytes/34MB} [pid: 2349|app: 0|req: 58/166] 158.69.225.33 () {36 vars in 474 bytes} [Sat Mar 28 01:51:09 2020] GET /ads.txt => generated 232 bytes in 2 msecs (HTTP/1.1 404) 5 headers in 376 bytes (1 switches on core 1)
+{address space usage: 347844608 bytes/331MB} {rss usage: 36569088 bytes/34MB} [pid: 2349|app: 0|req: 59/167] 158.69.225.33 () {36 vars in 571 bytes} [Sat Mar 28 01:51:09 2020] GET /tourist/ => generated 253 bytes in 2 msecs (HTTP/1.1 200) 5 headers in 369 bytes (1 switches on core 1)
+{address space usage: 347844608 bytes/331MB} {rss usage: 36372480 bytes/34MB} [pid: 2349|app: 0|req: 60/168] 61.241.50.63 () {40 vars in 609 bytes} [Sat Mar 28 03:33:35 2020] GET / => generated 225 bytes in 2 msecs (HTTP/1.1 302) 6 headers in 417 bytes (1 switches on core 1)
+{address space usage: 345559040 bytes/329MB} {rss usage: 33693696 bytes/32MB} [pid: 2351|app: 0|req: 13/169] 61.241.50.63 () {44 vars in 904 bytes} [Sat Mar 28 03:33:35 2020] GET /tourist/ => generated 253 bytes in 2 msecs (HTTP/1.1 200) 4 headers in 218 bytes (1 switches on core 0)
+{address space usage: 347844608 bytes/331MB} {rss usage: 36372480 bytes/34MB} [pid: 2349|app: 0|req: 61/170] 182.254.52.17 () {40 vars in 610 bytes} [Sat Mar 28 12:35:23 2020] GET / => generated 225 bytes in 2 msecs (HTTP/1.1 302) 6 headers in 417 bytes (1 switches on core 1)
+{address space usage: 345817088 bytes/329MB} {rss usage: 34054144 bytes/32MB} [pid: 2350|app: 0|req: 16/171] 182.254.52.17 () {44 vars in 905 bytes} [Sat Mar 28 12:35:23 2020] GET /tourist/ => generated 253 bytes in 4 msecs (HTTP/1.1 200) 4 headers in 218 bytes (1 switches on core 0)
+{address space usage: 347844608 bytes/331MB} {rss usage: 36372480 bytes/34MB} [pid: 2349|app: 0|req: 62/172] 14.18.182.223 () {40 vars in 626 bytes} [Sat Mar 28 12:39:46 2020] GET /tourist/ => generated 253 bytes in 2 msecs (HTTP/1.1 200) 5 headers in 369 bytes (1 switches on core 1)
+{address space usage: 347844608 bytes/331MB} {rss usage: 36372480 bytes/34MB} [pid: 2349|app: -1|req: -1/173] 182.254.52.17 () {40 vars in 696 bytes} [Sat Mar 28 15:11:29 2020] GET /static/assets/webfonts/fa-regular-400.woff2 => generated 13580 bytes in 3 msecs via sendfile() (HTTP/1.1 200) 2 headers in 88 bytes (0 switches on core 1)
+{address space usage: 345817088 bytes/329MB} {rss usage: 34119680 bytes/32MB} [pid: 2350|app: 0|req: 17/174] 27.202.72.48 () {46 vars in 1051 bytes} [Sat Mar 28 17:22:08 2020] GET / => generated 225 bytes in 3 msecs (HTTP/1.1 302) 6 headers in 417 bytes (1 switches on core 1)
+{address space usage: 345661440 bytes/329MB} {rss usage: 34041856 bytes/32MB} [pid: 2352|app: 0|req: 17/175] 27.202.72.48 () {46 vars in 1292 bytes} [Sat Mar 28 17:22:09 2020] GET /tourist/ => generated 253 bytes in 3 msecs (HTTP/1.1 200) 4 headers in 218 bytes (1 switches on core 0)
+{address space usage: 347844608 bytes/331MB} {rss usage: 36372480 bytes/34MB} [pid: 2349|app: 0|req: 63/176] 27.202.72.48 () {46 vars in 1227 bytes} [Sat Mar 28 17:22:09 2020] GET /favicon.ico => generated 232 bytes in 2 msecs (HTTP/1.1 404) 4 headers in 225 bytes (1 switches on core 0)
+{address space usage: 345817088 bytes/329MB} {rss usage: 34123776 bytes/32MB} [pid: 2350|app: 0|req: 18/177] 27.202.72.48 () {48 vars in 1345 bytes} [Sat Mar 28 17:22:10 2020] GET /user/login => generated 2469 bytes in 2 msecs (HTTP/1.1 200) 4 headers in 219 bytes (1 switches on core 1)
+{address space usage: 345559040 bytes/329MB} {rss usage: 33693696 bytes/32MB} [pid: 2351|app: -1|req: -1/178] 27.202.72.48 () {48 vars in 1315 bytes} [Sat Mar 28 17:22:10 2020] GET /static/assets/css/style_for_login.css => generated 0 bytes in 1 msecs (HTTP/1.1 304) 0 headers in 29 bytes (0 switches on core 0)
+{address space usage: 347844608 bytes/331MB} {rss usage: 36372480 bytes/34MB} [pid: 2349|app: -1|req: -1/179] 27.202.72.48 () {48 vars in 1278 bytes} [Sat Mar 28 17:22:10 2020] GET /static/assets/js/script.js => generated 0 bytes in 1 msecs (HTTP/1.1 304) 0 headers in 29 bytes (0 switches on core 0)
+{address space usage: 347844608 bytes/331MB} {rss usage: 36401152 bytes/34MB} [pid: 2349|app: -1|req: -1/180] 27.202.72.48 () {48 vars in 1343 bytes} [Sat Mar 28 17:22:10 2020] GET /static/assets/images/bg.jpg => generated 0 bytes in 1 msecs (HTTP/1.1 304) 0 headers in 29 bytes (0 switches on core 1)
+{address space usage: 345559040 bytes/329MB} {rss usage: 33878016 bytes/32MB} [pid: 2351|app: 0|req: 14/181] 27.202.72.48 () {56 vars in 1548 bytes} [Sat Mar 28 17:23:11 2020] POST /user/login/success => generated 229 bytes in 75 msecs (HTTP/1.1 302) 6 headers in 471 bytes (1 switches on core 1)
+{address space usage: 345817088 bytes/329MB} {rss usage: 34123776 bytes/32MB} [pid: 2350|app: 0|req: 19/182] 27.202.72.48 () {50 vars in 1430 bytes} [Sat Mar 28 17:23:11 2020] GET /user/index => generated 12436 bytes in 16 msecs (HTTP/1.1 200) 4 headers in 220 bytes (1 switches on core 1)
+{address space usage: 347844608 bytes/331MB} {rss usage: 36401152 bytes/34MB} [pid: 2349|app: -1|req: -1/183] 27.202.72.48 () {48 vars in 1345 bytes} [Sat Mar 28 17:23:11 2020] GET /static/assets/css/main.css => generated 0 bytes in 0 msecs (HTTP/1.1 304) 0 headers in 29 bytes (0 switches on core 0)
+{address space usage: 345559040 bytes/329MB} {rss usage: 34009088 bytes/32MB} [pid: 2351|app: -1|req: -1/184] 27.202.72.48 () {48 vars in 1360 bytes} [Sat Mar 28 17:23:11 2020] GET /static/images/pic01.jpg => generated 0 bytes in 1 msecs (HTTP/1.1 304) 0 headers in 29 bytes (0 switches on core 0)
+{address space usage: 345559040 bytes/329MB} {rss usage: 34009088 bytes/32MB} [pid: 2351|app: -1|req: -1/185] 27.202.72.48 () {48 vars in 1338 bytes} [Sat Mar 28 17:23:11 2020] GET /static/assets/js/jquery.min.js => generated 0 bytes in 0 msecs (HTTP/1.1 304) 0 headers in 29 bytes (0 switches on core 1)
+{address space usage: 345559040 bytes/329MB} {rss usage: 34009088 bytes/32MB} [pid: 2351|app: -1|req: -1/186] 27.202.72.48 () {48 vars in 1340 bytes} [Sat Mar 28 17:23:11 2020] GET /static/assets/js/browser.min.js => generated 0 bytes in 0 msecs (HTTP/1.1 304) 0 headers in 29 bytes (0 switches on core 1)
+{address space usage: 345817088 bytes/329MB} {rss usage: 34328576 bytes/32MB} [pid: 2350|app: -1|req: -1/187] 27.202.72.48 () {48 vars in 1348 bytes} [Sat Mar 28 17:23:11 2020] GET /static/assets/js/breakpoints.min.js => generated 0 bytes in 0 msecs (HTTP/1.1 304) 0 headers in 29 bytes (0 switches on core 0)
+{address space usage: 345661440 bytes/329MB} {rss usage: 34041856 bytes/32MB} [pid: 2352|app: -1|req: -1/188] 27.202.72.48 () {48 vars in 1360 bytes} [Sat Mar 28 17:23:11 2020] GET /static/images/pic02.jpg => generated 0 bytes in 0 msecs (HTTP/1.1 304) 0 headers in 29 bytes (0 switches on core 0)
+{address space usage: 345817088 bytes/329MB} {rss usage: 34357248 bytes/32MB} [pid: 2350|app: -1|req: -1/189] 27.202.72.48 () {48 vars in 1326 bytes} [Sat Mar 28 17:23:11 2020] GET /static/assets/js/util.js => generated 0 bytes in 0 msecs (HTTP/1.1 304) 0 headers in 29 bytes (0 switches on core 0)
+{address space usage: 347844608 bytes/331MB} {rss usage: 36401152 bytes/34MB} [pid: 2349|app: -1|req: -1/190] 27.202.72.48 () {48 vars in 1375 bytes} [Sat Mar 28 17:23:11 2020] GET /static/assets/css/fontawesome-all.min.css => generated 0 bytes in 0 msecs (HTTP/1.1 304) 0 headers in 29 bytes (0 switches on core 0)
+{address space usage: 345559040 bytes/329MB} {rss usage: 34009088 bytes/32MB} [pid: 2351|app: -1|req: -1/191] 27.202.72.48 () {48 vars in 1326 bytes} [Sat Mar 28 17:23:11 2020] GET /static/assets/js/main.js => generated 0 bytes in 0 msecs (HTTP/1.1 304) 0 headers in 29 bytes (0 switches on core 1)
+{address space usage: 345661440 bytes/329MB} {rss usage: 34070528 bytes/32MB} [pid: 2352|app: -1|req: -1/192] 27.202.72.48 () {48 vars in 1360 bytes} [Sat Mar 28 17:23:11 2020] GET /static/images/pic03.jpg => generated 0 bytes in 0 msecs (HTTP/1.1 304) 0 headers in 29 bytes (0 switches on core 0)
+{address space usage: 345817088 bytes/329MB} {rss usage: 34357248 bytes/32MB} [pid: 2350|app: -1|req: -1/193] 27.202.72.48 () {48 vars in 1380 bytes} [Sat Mar 28 17:23:11 2020] GET /static/images/overlay.png => generated 0 bytes in 0 msecs (HTTP/1.1 304) 0 headers in 29 bytes (0 switches on core 0)
+{address space usage: 347844608 bytes/331MB} {rss usage: 36401152 bytes/34MB} [pid: 2349|app: -1|req: -1/194] 27.202.72.48 () {48 vars in 1370 bytes} [Sat Mar 28 17:23:11 2020] GET /static/images/bg.jpg => generated 0 bytes in 0 msecs (HTTP/1.1 304) 0 headers in 29 bytes (0 switches on core 0)
+{address space usage: 345661440 bytes/329MB} {rss usage: 34070528 bytes/32MB} [pid: 2352|app: -1|req: -1/195] 27.202.72.48 () {50 vars in 1430 bytes} [Sat Mar 28 17:23:11 2020] GET /static/assets/webfonts/fa-solid-900.woff2 => generated 0 bytes in 0 msecs (HTTP/1.1 304) 0 headers in 29 bytes (0 switches on core 0)
+{address space usage: 345817088 bytes/329MB} {rss usage: 34357248 bytes/32MB} [pid: 2350|app: -1|req: -1/196] 27.202.72.48 () {50 vars in 1432 bytes} [Sat Mar 28 17:23:11 2020] GET /static/assets/webfonts/fa-brands-400.woff2 => generated 0 bytes in 0 msecs (HTTP/1.1 304) 0 headers in 29 bytes (0 switches on core 0)
+{address space usage: 347844608 bytes/331MB} {rss usage: 36401152 bytes/34MB} [pid: 2349|app: -1|req: -1/197] 27.202.72.48 () {50 vars in 1434 bytes} [Sat Mar 28 17:23:11 2020] GET /static/assets/webfonts/fa-regular-400.woff2 => generated 0 bytes in 0 msecs (HTTP/1.1 304) 0 headers in 29 bytes (0 switches on core 0)
+{address space usage: 345559040 bytes/329MB} {rss usage: 34009088 bytes/32MB} [pid: 2351|app: 0|req: 15/198] 27.202.72.48 () {56 vars in 1584 bytes} [Sat Mar 28 17:23:23 2020] POST /user/index => generated 178 bytes in 2 msecs (HTTP/1.1 405) 5 headers in 261 bytes (1 switches on core 1)
+{address space usage: 345559040 bytes/329MB} {rss usage: 34029568 bytes/32MB} [pid: 2351|app: 0|req: 16/199] 103.205.4.22 () {40 vars in 727 bytes} [Sat Mar 28 18:00:19 2020] GET / => generated 225 bytes in 2 msecs (HTTP/1.1 302) 6 headers in 417 bytes (1 switches on core 1)
+{address space usage: 345817088 bytes/329MB} {rss usage: 34357248 bytes/32MB} [pid: 2350|app: 0|req: 20/200] 103.205.4.22 () {40 vars in 743 bytes} [Sat Mar 28 18:00:19 2020] GET /tourist/ => generated 253 bytes in 2 msecs (HTTP/1.1 200) 5 headers in 369 bytes (1 switches on core 0)
+{address space usage: 347844608 bytes/331MB} {rss usage: 36401152 bytes/34MB} [pid: 2349|app: 0|req: 64/201] 103.205.4.22 () {42 vars in 588 bytes} [Sat Mar 28 18:00:19 2020] GET / => generated 225 bytes in 3 msecs (HTTP/1.1 302) 6 headers in 417 bytes (1 switches on core 0)
+{address space usage: 345661440 bytes/329MB} {rss usage: 34070528 bytes/32MB} [pid: 2352|app: 0|req: 18/202] 103.205.4.22 () {44 vars in 842 bytes} [Sat Mar 28 18:00:19 2020] GET /tourist/ => generated 253 bytes in 3 msecs (HTTP/1.1 200) 4 headers in 218 bytes (1 switches on core 0)
+{address space usage: 345559040 bytes/329MB} {rss usage: 34029568 bytes/32MB} [pid: 2351|app: 0|req: 17/203] 61.241.50.63 () {40 vars in 625 bytes} [Sun Mar 29 03:14:23 2020] GET /tourist/ => generated 253 bytes in 2 msecs (HTTP/1.1 200) 5 headers in 369 bytes (1 switches on core 1)
+{address space usage: 345559040 bytes/329MB} {rss usage: 34033664 bytes/32MB} [pid: 2351|app: 0|req: 18/204] 182.254.52.17 () {40 vars in 610 bytes} [Sun Mar 29 03:31:18 2020] GET / => generated 225 bytes in 2 msecs (HTTP/1.1 302) 6 headers in 417 bytes (1 switches on core 1)
+{address space usage: 345817088 bytes/329MB} {rss usage: 34357248 bytes/32MB} [pid: 2350|app: 0|req: 21/205] 182.254.52.17 () {44 vars in 905 bytes} [Sun Mar 29 03:31:18 2020] GET /tourist/ => generated 253 bytes in 1 msecs (HTTP/1.1 200) 4 headers in 218 bytes (1 switches on core 0)
+{address space usage: 345559040 bytes/329MB} {rss usage: 34033664 bytes/32MB} [pid: 2351|app: 0|req: 19/206] 222.95.134.28 () {40 vars in 668 bytes} [Sun Mar 29 03:53:09 2020] GET / => generated 225 bytes in 3 msecs (HTTP/1.1 302) 6 headers in 417 bytes (1 switches on core 1)
+{address space usage: 347844608 bytes/331MB} {rss usage: 36405248 bytes/34MB} [pid: 2349|app: 0|req: 65/207] 222.95.134.28 () {38 vars in 655 bytes} [Sun Mar 29 03:53:09 2020] GET /tourist/ => generated 253 bytes in 2 msecs (HTTP/1.1 200) 5 headers in 369 bytes (1 switches on core 0)
+{address space usage: 345559040 bytes/329MB} {rss usage: 34033664 bytes/32MB} [pid: 2351|app: 0|req: 20/208] 58.247.212.239 () {40 vars in 611 bytes} [Sun Mar 29 04:55:23 2020] GET / => generated 225 bytes in 2 msecs (HTTP/1.1 302) 6 headers in 417 bytes (1 switches on core 1)
+{address space usage: 345817088 bytes/329MB} {rss usage: 34361344 bytes/32MB} [pid: 2350|app: 0|req: 22/209] 58.247.212.239 () {44 vars in 906 bytes} [Sun Mar 29 04:55:23 2020] GET /tourist/ => generated 253 bytes in 1 msecs (HTTP/1.1 200) 4 headers in 218 bytes (1 switches on core 0)
+{address space usage: 345559040 bytes/329MB} {rss usage: 34033664 bytes/32MB} [pid: 2351|app: 0|req: 21/210] 59.36.132.240 () {40 vars in 630 bytes} [Sun Mar 29 05:16:54 2020] GET /user/login => generated 2469 bytes in 3 msecs (HTTP/1.1 200) 5 headers in 370 bytes (1 switches on core 1)
+{address space usage: 345559040 bytes/329MB} {rss usage: 34050048 bytes/32MB} [pid: 2351|app: 0|req: 22/211] 116.128.128.41 () {40 vars in 611 bytes} [Sun Mar 29 11:04:27 2020] GET / => generated 225 bytes in 2 msecs (HTTP/1.1 302) 6 headers in 417 bytes (1 switches on core 1)
+{address space usage: 345817088 bytes/329MB} {rss usage: 34361344 bytes/32MB} [pid: 2350|app: 0|req: 23/212] 116.128.128.41 () {44 vars in 906 bytes} [Sun Mar 29 11:04:27 2020] GET /tourist/ => generated 253 bytes in 1 msecs (HTTP/1.1 200) 4 headers in 218 bytes (1 switches on core 0)
+{address space usage: 345559040 bytes/329MB} {rss usage: 34050048 bytes/32MB} [pid: 2351|app: -1|req: -1/213] 14.18.173.122 () {36 vars in 457 bytes} [Sun Mar 29 17:22:22 2020] GET /static/images/bg.jpg => generated 86682 bytes in 2 msecs via sendfile() (HTTP/1.1 200) 2 headers in 88 bytes (0 switches on core 1)
+{address space usage: 347844608 bytes/331MB} {rss usage: 36405248 bytes/34MB} [pid: 2349|app: -1|req: -1/214] 14.18.182.223 () {40 vars in 694 bytes} [Sun Mar 29 17:23:23 2020] GET /static/assets/webfonts/fa-brands-400.woff2 => generated 74508 bytes in 17 msecs via sendfile() (HTTP/1.1 200) 2 headers in 88 bytes (0 switches on core 0)
+{address space usage: 347844608 bytes/331MB} {rss usage: 36405248 bytes/34MB} [pid: 2349|app: -1|req: -1/215] 113.96.198.101 () {36 vars in 464 bytes} [Sun Mar 29 17:33:04 2020] GET /static/images/pic02.jpg => generated 8904 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 2 headers in 87 bytes (0 switches on core 1)

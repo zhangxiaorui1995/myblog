@@ -17,11 +17,11 @@ def index():
         user_name = user_info.net_name
         blog_info = BlogInfo.query.filter(BlogInfo.id == uid).first()
         admin_name = '站长'
-        # return render_template('index.html', name=user_name, speciality=blog_info.speciality,
+        # return render_template('tourist_index.html', name=user_name, speciality=blog_info.speciality,
         #                        personal_signature=blog_info.personal_signature,
         #                        personal_profile=blog_info.personal_peofile,
         #                        personal_expectation=blog_info.personal_expectation)
-        return render_template('index.html', **locals())
+        return render_template('tourist_index.html', **locals())
     else:
         return redirect(url_for('user.log_in'))
         # return redirect('login')
@@ -41,14 +41,20 @@ def log_in_success():
         else:
             uem = request.form.get('email', None)
             user = UserInfo.query.filter(UserInfo.user == uem).first()
-            uid = user.id
-            session['uid'] = uid
-            upw = request.form.get('password', None)
-
-            if user.pwd == upw:
-                return redirect(url_for('user.index'))
+            if user:
+                uid = user.id
+                session['uid'] = uid
+                upw = request.form.get('password', None)
+                if user.pwd == upw:
+                    user_info = UserInfo.query.filter(UserInfo.id == uid).first()
+                    user_name = user_info.net_name
+                    blog_info = BlogInfo.query.filter(BlogInfo.id == uid).first()
+                    admin_name = '站长'
+                    return render_template('index.html', **locals())
+                else:
+                    return "密码错误"  # TODO
             else:
-                return "error"  # TODO
+                return render_template('login.html')
     # 注册的接口为GET
     elif request.method == "GET":
         if request.args.get('user_name'):
@@ -63,7 +69,7 @@ def log_in_success():
             new_user_info.net_name = net_name
             db.session.add(new_user_info)
             db.session.commit()
-            g.uid = uid
+            session['uid'] = uid
             return redirect(url_for('user.user_form'))
         else:
             return "error"  # TODO
@@ -74,7 +80,7 @@ def log_in_success():
 # 用户填写基本信息
 @blueprint.route('/user_form', methods=["GET", "POST"])
 def user_form():
-    if not g.uid:
+    if g.uid:
         if request.method == "GET":
             form = UserForm()
             return render_template('user_form.html', forms=form)
@@ -83,6 +89,24 @@ def user_form():
         if form.validate():
             print([i.data for i in form])
             return "验证成功"
+            blog_info_list_one = []
+            for i in form:
+                blog_info_list_one.append(i.data)
+            blog_info_list = blog_info_list_one[:-1]
+            blog_info = BlogInfo()
+            blog_info.id = g.uid
+            blog_info.sex = blog_info_list[0]
+            blog_info.phone = blog_info_list[1]
+            blog_info.qq = blog_info_list[2]
+            blog_info.wx = blog_info_list[3]
+            blog_info.speciality = blog_info_list[4]
+            blog_info.personal_signature = blog_info_list[5]
+            blog_info.personal_profile = blog_info_list[6]
+            blog_info.personal_expectation = blog_info_list[7]
+            blog_info.status = 0
+            db.session.add(blog_info)
+            db.session.commit()
+            return redirect(url_for('user.index'))
         else:
             return render_template('user_form.html', forms=form)
     else:
